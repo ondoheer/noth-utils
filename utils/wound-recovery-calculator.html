@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css?family=Press+Start+2P" rel="stylesheet">
+    <link href="https://unpkg.com/nes.css@latest/css/nes.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="../css/style.css">
+    <title>Thom</title>
+</head>
+<body>
+    <h1>Thom</h1>
+
+    <hr>
+
+    <section>
+        <h2>Healing time</h2>
+        <fieldset>
+            <label for="coPicker">Select your <strong>Co</strong> stat</label>
+            <span>0</span> 
+            <input type="range" name="coPicker" id="coPicker" min="0" max="15">
+            <span>15+</span>
+        </fieldset>
+        <p>Your Co: <span id="characterCo">--</span></p>
+        <select name="wound-severity" id="woundSeverity">
+            <option value="none">-- choose wound severity  </option>
+            <option value="light">light</option>
+            <option value="medium">medium</option>
+            <option value="grave">grave</option>
+            <option value="severe">severe</option>
+            <option value="should_dead">should be dead</option>
+        </select>
+        <p id="recoveryTime"></p>
+        <script>
+            const coPicker = document.getElementById("coPicker")
+            const characterCo = document.getElementById("characterCo")
+            coPicker.onchange = (e) =>{
+                const coValue = e.target.value;
+                characterCo.innerHTML = coValue
+
+            }
+
+            const recoveryTimePanel = document.getElementById("recoveryTime");
+            const recoveryTimesByRange = {
+                1:{
+                    "light":2,
+                    "medium":3,
+                    "grave": 4,
+                    "severe":8,
+                    "should_dead": 60
+                },
+                2:{
+                    "light":2,
+                    "medium":2,
+                    "grave": 4,
+                    "severe":8,
+                    "should_dead": 60
+                },
+                3:{
+                    "light":1,
+                    "medium":2,
+                    "grave": 3,
+                    "severe":6,
+                    "should_dead": 48
+                },
+                4:{
+                    "light":1,
+                    "medium":1,
+                    "grave": 3,
+                    "severe":6,
+                    "should_dead": 48
+                },
+                5:{
+                    "light":1,
+                    "medium":1,
+                    "grave": 2,
+                    "severe":5,
+                    "should_dead": 36
+                },
+                6:{
+                    "light":0,
+                    "medium":1,
+                    "grave": 2,
+                    "severe":4,
+                    "should_dead": 28
+                }
+            }
+            const recoveryCalculator = (coStat, severity) =>{
+                let timeRange = 0
+                if(coStat < 5){
+                     timeRange = 1
+                } else if( coStat < 7){
+                     timeRange = 2
+                } else if(coStat < 11){
+                     timeRange = 3
+                } else if(coStat <13){
+                     timeRange = 4
+                } else if(coStat < 15){
+                     timeRange = 5
+                } else if(coStat > 14){
+                     timeRange = 6
+                }
+
+                return recoveryTimesByRange[timeRange][severity];
+            }
+            let woundSeveritySelector = document.getElementById("woundSeverity");
+            woundSeveritySelector.onchange = (e)=> {
+                const severity = e.target.value
+                const coStat = parseInt(coPicker.value)
+                const result = recoveryCalculator(coStat, severity)
+                recoveryTimePanel.innerHTML = `This wound will take ${result} weeks to recover`
+
+            }
+        </script>
+    </section>
+</body>
+</html>
