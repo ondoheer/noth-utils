@@ -3,6 +3,10 @@
     display: grid;
     grid-template-columns: 1fr 1fr;
 }
+
+section{
+    padding: 20px;
+}
 fieldset{
     margin-bottom: 30px;
     display: flex;
@@ -10,5 +14,11 @@ fieldset{
 }
 .radio-container{
     display: flex;
+    margin-bottom: 3px;
     
+}
+
+.radio-container label{
+    margin-left: 10px;
+    margin-bottom: 0;
 }
