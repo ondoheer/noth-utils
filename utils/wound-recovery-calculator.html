@@ -61,9 +61,9 @@
         
         </section>
         <section>
-            <div class="nes-container with-title is-centered">
+            <div class="nes-container is-dark  with-title is-centered">
                 <p class="title">Weeks to recover</p>
-                <p id="recoveryTime">Nothing so far</p>
+                <p id="recoveryTime" class="nes-text">Nothing so far</p>
               </div>
             
         </section>
@@ -75,7 +75,8 @@
                 1:"light",
                 2:"medium",
                 3:"grave",
-                4:"severe"
+                4:"severe",
+                5:"should_die"
             }
             const coPicker = document.getElementById("coPicker")
             const characterCo = document.getElementById("characterCo")
@@ -162,12 +163,29 @@
                 const dmgLvl = parseInt(document.querySelector('[name="hits_lvl"]:checked').value)
                 return Math.max(bleedingLvl, activityPenaltyLvl, dmgLvl)
             }
+
+            const getSeverityColor = (severity) => {
+                const severityColor = {
+                    "none": "normal",
+                    "light": "normal",
+                    "medium": "warning",
+                    "grave": "warning",
+                    "severe":"error",
+                    "should_die":"error"
+                }
+                
+                return severityColor[severity]
+            }
             const calculateRecoveryTime = ()=>{
                 const maxSeverity = getMaxSeverity()
                 const severity = severityTable[maxSeverity]
                 const coStat = parseInt(coPicker.value)
                 const result = recoveryCalculator(coStat, severity)
+                const severityColor = getSeverityColor(severity)
                 recoveryTimePanel.innerHTML = `This wound will take ${result} weeks to recover`
+                recoveryTimePanel.classList.remove(...recoveryTimePanel.classList)
+                recoveryTimePanel.classList.add("nes-text")
+                recoveryTimePanel.classList.add(`is-${severityColor}`)
             }
             
             //coPicker.onchange = calculateRecoveryTime
