@@ -1,2 +1,13 @@
 
-
+.tool-container{
+    display: flex;
+}
+fieldset{
+    margin-bottom: 30px;
+    display: flex;
+    flex-direction: column;
+}
+.radio-container{
+    display: flex;
+    
+}

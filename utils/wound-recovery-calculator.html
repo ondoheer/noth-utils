@@ -13,28 +13,73 @@
     <h1>Wound Recovery Time Calculator</h1>
 
     <hr>
-
+    <div class="tool-container">
+        
     <section>
         <h2>Healing time</h2>
-        <fieldset>
+        <div>
             <label for="coPicker">Select your <strong>Co</strong> stat</label>
             <span>0</span> 
             <input type="range" name="coPicker" id="coPicker" min="0" max="15">
             <span>15+</span>
+            <p>Your Co: <span id="characterCo">--</span></p>
+        </div>
+
+        <p>Choose the wound properties</p>
+        <fieldset>
+            
+            <h3 >Bleeding lvl</h3>
+            <div class="radio-container"> <input type="radio" name="bleeding_lvl" value="0" checked id="noBleed"><label for="noBleed" >no bleeding</label></div>
+            <div class="radio-container"> <input type="radio" name="bleeding_lvl" value="1" id="lightBleed"><label for="lightBleed">1 bleeding per turn</label></div>
+            <div class="radio-container"> <input type="radio" name="bleeding_lvl" value="2" id="mediumBleed"><label for="mediumBleed">2-3 bleeding per turn</label></div>
+            <div class="radio-container"> <input type="radio" name="bleeding_lvl" value="3" id="graveBleed"><label for="graveBleed">4-5 bleeding per turn</label></div>
+            <div class="radio-container"> <input type="radio" name="bleeding_lvl" value="4" id="severeBleed"><label for="severeBleed">6-7 bleeding per turn</label></div>
+            <div class="radio-container"> <input type="radio" name="bleeding_lvl" value="5" id="shouldDieBleed"><label for="shouldDieBleed">8+ bleeding per turn</label></div>
+
         </fieldset>
-        <p>Your Co: <span id="characterCo">--</span></p>
-        <select name="wound-severity" id="woundSeverity">
-            <option value="none">-- choose wound severity  </option>
-            <option value="light">light</option>
-            <option value="medium">medium</option>
-            <option value="grave">grave</option>
-            <option value="severe">severe</option>
-            <option value="should_dead">should be dead</option>
-        </select>
-        <p id="recoveryTime"></p>
+        <fieldset>
+            <h3>Activity Penalty</h3>
+            <div class="radio-container"> <input type="radio" name="activity_lvl" value="0" checked id="noActivityPenalty"><label for="noActivityPenalty" >no activity penalty</label></div>
+            <div class="radio-container"> <input type="radio" name="activity_lvl" value="1" id="lightActivityPenalty"><label for="lightActivityPenalty">-5 activity penalty</label></div>
+            <div class="radio-container"> <input type="radio" name="activity_lvl" value="2" id="mediumActivityPenalty"><label for="mediumActivityPenalty">-6 to -15 activity penalty</label></div>
+            <div class="radio-container"> <input type="radio" name="activity_lvl" value="3" id="graveActivityPenalty"><label for="graveActivityPenalty">-16 to -30 activity penalty</label></div>
+            <div class="radio-container"> <input type="radio" name="activity_lvl" value="4" id="severeActivityPenalty"><label for="severeActivityPenalty">-31 to -45 activity penalty</label></div>
+            <div class="radio-container"> <input type="radio" name="activity_lvl" value="5" id="shouldDieActivityPenalty"><label for="shouldDieActivityPenalty">-50 and more activity penalty</label></div>
+        </fieldset>
+
+        <fieldset>
+            
+            <h3 >Hits taken</h3>
+            <div class="radio-container"> <input type="radio" name="hits_lvl" value="0" checked id="noDmg"><label for="noDmg" >&lt;10</label></div>
+            <div class="radio-container"> <input type="radio" name="hits_lvl" value="1" id="lightDmg"><label for="lightDmg">10-20 hits taken</label></div>
+            <div class="radio-container"> <input type="radio" name="hits_lvl" value="2" id="mediumDmg"><label for="mediumDmg">21-30 hits taken</label></div>
+            <div class="radio-container"> <input type="radio" name="hits_lvl" value="3" id="graveDmg"><label for="graveDmg">31-50 hits taken</label></div>
+            <div class="radio-container"> <input type="radio" name="hits_lvl" value="4" id="severeDmg"><label for="severeDmg">51-70 hits taken</label></div>
+            <div class="radio-container"> <input type="radio" name="hits_lvl" value="5" id="shouldDieDmg"><label for="shouldDieDmg">70+ hits taken</label></div>
+
+        </fieldset>
+        
+        </section>
+        <section>
+            <div class="nes-container with-title is-centered">
+                <p class="title">Weeks to recover</p>
+                <p id="recoveryTime">Nothing so far</p>
+              </div>
+            
+        </section>
+        
+    </div>
         <script>
+            const severityTable = {
+                0:"none",
+                1:"light",
+                2:"medium",
+                3:"grave",
+                4:"severe"
+            }
             const coPicker = document.getElementById("coPicker")
             const characterCo = document.getElementById("characterCo")
+            
             coPicker.onchange = (e) =>{
                 const coValue = e.target.value;
                 characterCo.innerHTML = coValue
@@ -44,46 +89,52 @@
             const recoveryTimePanel = document.getElementById("recoveryTime");
             const recoveryTimesByRange = {
                 1:{
+                    "none": 0,
                     "light":2,
                     "medium":3,
                     "grave": 4,
                     "severe":8,
-                    "should_dead": 60
+                    "should_die": 60
                 },
                 2:{
+                    "none": 0,
                     "light":2,
                     "medium":2,
                     "grave": 4,
                     "severe":8,
-                    "should_dead": 60
+                    "should_die": 60
                 },
                 3:{
+                    "none": 0,
                     "light":1,
                     "medium":2,
                     "grave": 3,
                     "severe":6,
-                    "should_dead": 48
+                    "should_die": 48
                 },
                 4:{
+                    "none": 0,
                     "light":1,
                     "medium":1,
                     "grave": 3,
                     "severe":6,
-                    "should_dead": 48
+                    "should_die": 48
                 },
                 5:{
+                    "none": 0,
                     "light":1,
                     "medium":1,
                     "grave": 2,
                     "severe":5,
-                    "should_dead": 36
+                    "should_die": 36
                 },
                 6:{
+                    "none": 0,
                     "light":0,
                     "medium":1,
                     "grave": 2,
                     "severe":4,
-                    "should_dead": 28
+                    "should_die": 28
                 }
             }
             const recoveryCalculator = (coStat, severity) =>{
@@ -104,15 +155,33 @@
 
                 return recoveryTimesByRange[timeRange][severity];
             }
-            let woundSeveritySelector = document.getElementById("woundSeverity");
-            woundSeveritySelector.onchange = (e)=> {
-                const severity = e.target.value
+
+            const getMaxSeverity = ()=>{
+                const bleedingLvl = parseInt(document.querySelector('[name="bleeding_lvl"]:checked').value)
+                const activityPenaltyLvl = parseInt(document.querySelector('[name="activity_lvl"]:checked').value)
+                const dmgLvl = parseInt(document.querySelector('[name="hits_lvl"]:checked').value)
+                return Math.max(bleedingLvl, activityPenaltyLvl, dmgLvl)
+            }
+            const calculateRecoveryTime = ()=>{
+                const maxSeverity = getMaxSeverity()
+                const severity = severityTable[maxSeverity]
                 const coStat = parseInt(coPicker.value)
                 const result = recoveryCalculator(coStat, severity)
                 recoveryTimePanel.innerHTML = `This wound will take ${result} weeks to recover`
-
             }
+            
+            //coPicker.onchange = calculateRecoveryTime
+            const bleedPickers = document.querySelectorAll('[name="bleeding_lvl"]')
+            const activityPenaltyPickers = document.querySelectorAll('[name="activity_lvl"]')
+            const dmgPickers = document.querySelectorAll('[name="hits_lvl"]')
+            const radioPickers = [bleedPickers, activityPenaltyPickers, dmgPickers]
+            radioPickers.forEach(category => {
+                category.forEach(radio => {
+                    radio.onchange = calculateRecoveryTime
+                });
+            });
         </script>
-    </section>
+    
+
 </body>
 </html>
