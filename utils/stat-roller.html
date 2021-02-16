@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css?family=Press+Start+2P" rel="stylesheet">
+    <link href="https://unpkg.com/nes.css@latest/css/nes.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="../css/style.css">
+    <title>Stat Roller</title>
+</head>
+<body>
+    <h1>Stat Roller</h1>
+    <hr>
+    <button type="button" id="rollStatsButton" class="nes-btn is-primary">Roll</button>
+    <ul>
+        <li id="st">Strenght (st): <span class="statValue" id="stVal">--</span></li>
+        <li id="ag">Agility (ag): <span class="statValue" id="agVal">--</span></li>
+        <li id="st">Quickness (qu): <span class="statValue" id="quVal">--</span></li>
+        <li id="st">Constitution (co): <span class="statValue" id="coVal">--</span></li>
+        <li id="st">Reasoning (re): <span class="statValue" id="reVal">--</span></li>
+        <li id="st">Insight (in): <span class="statValue" id="inVal">--</span></li>
+        <li id="st">Presence (pr): <span class="statValue" id="prVal">--</span></li>
+        <li id="st">Self Discipline (sd): <span class="statValue" id="sdVal">--</span></li>
+    </ul>
+
+
+    <script>
+         rollDie = (size) => {
+            return Math.floor((Math.random() * size)+1)
+        }
+
+        rollStatDie = (minVal) => {
+            let die = 0
+            while(die < minVal){
+                die = rollDie(100)
+            }
+            return die
+        }
+        
+        rollStats = ()=>{
+
+            let statValues = document.getElementsByClassName('statValue')
+            
+            
+            for (let index = 0; index < statValues.length; index++) {
+                const stat = statValues[index];
+                stat.innerHTML = rollStatDie(46)
+            }
+        }
+
+        const rollStatsButton = document.getElementById("rollStatsButton")
+        rollStatsButton.onclick = rollStats
+    </script>
+    
+
+</body>
+</html>
