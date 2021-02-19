@@ -10,20 +10,26 @@
     <title>Stat Roller</title>
 </head>
 <body>
-    <h1>Stat Roller</h1>
-    <hr>
-    <button type="button" id="rollStatsButton" class="nes-btn is-primary">Roll</button>
-    <ul>
-        <li id="st">Strenght (st): <span class="statValue" id="stVal">--</span></li>
-        <li id="ag">Agility (ag): <span class="statValue" id="agVal">--</span></li>
-        <li id="st">Quickness (qu): <span class="statValue" id="quVal">--</span></li>
-        <li id="st">Constitution (co): <span class="statValue" id="coVal">--</span></li>
-        <li id="st">Reasoning (re): <span class="statValue" id="reVal">--</span></li>
-        <li id="st">Insight (in): <span class="statValue" id="inVal">--</span></li>
-        <li id="st">Presence (pr): <span class="statValue" id="prVal">--</span></li>
-        <li id="st">Self Discipline (sd): <span class="statValue" id="sdVal">--</span></li>
-    </ul>
-
+  <div class="header">
+    <h1>Noth Utilities</h1>
+  </div>
+  <div class="main">
+    <div class="container">  
+      <h1>Stat Roller</h1>
+      <hr>
+      <button type="button" id="rollStatsButton" class="nes-btn is-primary">Roll</button>
+      <ul>
+          <li id="st">Strenght (st): <span class="statValue" id="stVal">--</span></li>
+          <li id="ag">Agility (ag): <span class="statValue" id="agVal">--</span></li>
+          <li id="st">Quickness (qu): <span class="statValue" id="quVal">--</span></li>
+          <li id="st">Constitution (co): <span class="statValue" id="coVal">--</span></li>
+          <li id="st">Reasoning (re): <span class="statValue" id="reVal">--</span></li>
+          <li id="st">Insight (in): <span class="statValue" id="inVal">--</span></li>
+          <li id="st">Presence (pr): <span class="statValue" id="prVal">--</span></li>
+          <li id="st">Self Discipline (sd): <span class="statValue" id="sdVal">--</span></li>
+      </ul> 
+    </div>
+  </div>
 
     <script>
          rollDie = (size) => {

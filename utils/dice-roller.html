@@ -10,26 +10,32 @@
     <title>Dice Roller</title>
 </head>
 <body>
-    <h1>Dice Roller</h1>
-    <hr>
-    <div>
+  <div class="header">
+    <h1>Noth Utilities</h1>
+  </div>
+  <div class="main">
+    <div class="container">
+      <h1>Dice Roller</h1>
+      <hr>
+      <div>
 
-        <label for="baseValue">Base Value</label><input type="number" name="baseValue" id="baseValue" placeholder="0" autofocus>
-        <button type="button" id="rollButton" class="nes-btn is-primary">Roll</button>
+          <label for="baseValue">Base Value</label><input type="number" name="baseValue" id="baseValue" placeholder="0" autofocus>
+          <button type="button" id="rollButton" class="nes-btn is-primary">Roll</button>
+      </div>
+      
+      <hr>
+      
+          <div class="nes-container is-dark  with-title is-centered">
+              <p class="title">Result</p>
+              <p id="rollResult" class="nes-text">---</p>
+            </div>
+      
     </div>
-    
-    <hr>
-    
-        <div class="nes-container is-dark  with-title is-centered">
-            <p class="title">Result</p>
-            <p id="rollResult" class="nes-text">---</p>
-          </div>
-    
-
+  </div>
 
 
     <script>
-         rollDie = (size) => {
+        rollDie = (size) => {
             return Math.floor((Math.random() * size)+1)
         }
 
@@ -54,7 +60,7 @@
         const rollButton = document.getElementById("rollButton")
         rollButton.onclick = rollSkill
     </script>
-    
+      
 
 </body>
 </html>
