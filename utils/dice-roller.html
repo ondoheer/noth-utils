@@ -29,12 +29,33 @@
               <p class="title">Result</p>
               <p id="rollResult" class="nes-text">---</p>
             </div>
-      
+        
+            <hr>
+
+        <h2>Advanced features</h2>
+
+        <div>
+
+            <label for="openEndedValue">Open ended starts at: </label><input type="number" name="openEndedValue" id="openEndedValue" value="96">
+        </div>
+        <div>
+
+            
+            <label for="fumbleValue">Fumble starts at: </label><input type="number" name="fumbleValue" id="fumbleValue" value="05">
+        </div>
+            
     </div>
   </div>
 
 
     <script>
+
+        const openEndedValue = document.getElementById("openEndedValue")
+        const fumbleValue = document.getElementById("fumbleValue")
+        const baseValue = document.getElementById("baseValue")
+
+        
+        
         rollDie = (size) => {
             return Math.floor((Math.random() * size)+1)
         }
@@ -48,15 +69,57 @@
             return rollOpenEnded(result)
         }
 
+        rollDetailed = () =>{
+            let rolls = []
+            
+            let roll = rollDie(100)
+            rolls.push(roll)
+            while(roll >= openEndedValue.value){
+                roll = rollDie(100)
+                rolls.push(roll)
+            }
+            return rolls
+        }
+
         rollSkill = ()=> {
-            const baseValue = new Number(document.getElementById("baseValue").value)
-            result = rollOpenEnded() + baseValue
+            
+            const rolls = rollDetailed()
             
             const rollResult = document.getElementById("rollResult")
-            rollResult.innerHTML = result
+            rollResult.innerHTML =  buildResultsString(rolls)
+
         }
         
+        buildTotal = (rolls) =>{
+            return new Number(baseValue.value) + rolls.reduce((sum, curr)=> sum + curr)
+        }
+        buildResultsString = (rolls) => {
+            
+            const total = buildTotal(rolls)
+            let template = `${total}: `
+            template += `<${baseValue.value}> `
+            rolls.forEach(roll => {
+                template += " + "
+                template += roll
+            });
+            template += `<br>`
+            template += buildResultTextString(rolls)
+            return template
+        }
 
+        buildResultTextString = (rolls) => {
+            if(rolls[0] == 66){
+                return "UNUSUAL SUCCESS (and/or) WEAPON BREAKAGE"
+            }
+            else if(rolls[0] == 100){
+                return "ABSOLUTE SUCCESS"
+            }
+            else if(rolls[0] == 11 || rolls[0] == 22 || rolls[0] == 33 || rolls[0] == 44 || rolls[0] == 55 || rolls[0] == 77 || rolls[0] == 88 || rolls[0] == 99){
+                return "WEAPON BREAKAGE"
+            } else {
+                return ""
+            }
+        }
         const rollButton = document.getElementById("rollButton")
         rollButton.onclick = rollSkill
     </script>
