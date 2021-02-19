@@ -1,4 +1,23 @@
-
+.container {
+  width: 1024px;
+  max-width: 80%;
+  margin: 0 auto; 
+}
+.header{
+  height: 70px;
+  width: 100vw;
+  background-color:lightseagreen;
+  display: flex; 
+  justify-content: center;
+  align-items: center;
+}
+.main {
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+  width: 100vw;
+  padding: 20px; 
+}
 .tool-container{
     display: grid;
     grid-template-columns: 1fr 1fr;

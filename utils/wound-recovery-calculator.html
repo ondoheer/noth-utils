@@ -10,65 +10,72 @@
     <title>Wound Recovery Time Calculator</title>
 </head>
 <body>
-    <h1>Wound Recovery Time Calculator</h1>
+  <div class="header">
+    <h1>Noth Utilities</h1>
+  </div>
+  <div class="main">
+    <div class="container">  
+      <h1>Wound Recovery Time Calculator</h1>
 
-    <hr>
-    <div class="tool-container">
-        
-    <section>
-        <h2>Healing time</h2>
-        <div>
-            <label for="coPicker">Select your <strong>Co</strong> stat</label>
-            <span>0</span> 
-            <input type="range" name="coPicker" id="coPicker" min="0" max="15">
-            <span>15+</span>
-            <p>Your Co: <span id="characterCo">--</span></p>
-        </div>
+      <hr>
+      <div class="tool-container">
+          
+      <section>
+          <h2>Healing time</h2>
+          <div>
+              <label for="coPicker">Select your <strong>Co</strong> stat</label>
+              <span>0</span> 
+              <input type="range" name="coPicker" id="coPicker" min="0" max="15">
+              <span>15+</span>
+              <p>Your Co: <span id="characterCo">--</span></p>
+          </div>
 
-        <p>Choose the wound properties</p>
-        <fieldset>
-            
-            <h3 >Bleeding lvl</h3>
-            <div class="radio-container"> <input type="radio" name="bleeding_lvl" value="0" checked id="noBleed"><label for="noBleed" >no bleeding</label></div>
-            <div class="radio-container"> <input type="radio" name="bleeding_lvl" value="1" id="lightBleed"><label for="lightBleed">1 bleeding per turn</label></div>
-            <div class="radio-container"> <input type="radio" name="bleeding_lvl" value="2" id="mediumBleed"><label for="mediumBleed">2-3 bleeding per turn</label></div>
-            <div class="radio-container"> <input type="radio" name="bleeding_lvl" value="3" id="graveBleed"><label for="graveBleed">4-5 bleeding per turn</label></div>
-            <div class="radio-container"> <input type="radio" name="bleeding_lvl" value="4" id="severeBleed"><label for="severeBleed">6-7 bleeding per turn</label></div>
-            <div class="radio-container"> <input type="radio" name="bleeding_lvl" value="5" id="shouldDieBleed"><label for="shouldDieBleed">8+ bleeding per turn</label></div>
+          <p>Choose the wound properties</p>
+          <fieldset>
+              
+              <h3 >Bleeding lvl</h3>
+              <div class="radio-container"> <input type="radio" name="bleeding_lvl" value="0" checked id="noBleed"><label for="noBleed" >no bleeding</label></div>
+              <div class="radio-container"> <input type="radio" name="bleeding_lvl" value="1" id="lightBleed"><label for="lightBleed">1 bleeding per turn</label></div>
+              <div class="radio-container"> <input type="radio" name="bleeding_lvl" value="2" id="mediumBleed"><label for="mediumBleed">2-3 bleeding per turn</label></div>
+              <div class="radio-container"> <input type="radio" name="bleeding_lvl" value="3" id="graveBleed"><label for="graveBleed">4-5 bleeding per turn</label></div>
+              <div class="radio-container"> <input type="radio" name="bleeding_lvl" value="4" id="severeBleed"><label for="severeBleed">6-7 bleeding per turn</label></div>
+              <div class="radio-container"> <input type="radio" name="bleeding_lvl" value="5" id="shouldDieBleed"><label for="shouldDieBleed">8+ bleeding per turn</label></div>
 
-        </fieldset>
-        <fieldset>
-            <h3>Activity Penalty</h3>
-            <div class="radio-container"> <input type="radio" name="activity_lvl" value="0" checked id="noActivityPenalty"><label for="noActivityPenalty" >no activity penalty</label></div>
-            <div class="radio-container"> <input type="radio" name="activity_lvl" value="1" id="lightActivityPenalty"><label for="lightActivityPenalty">-5 activity penalty</label></div>
-            <div class="radio-container"> <input type="radio" name="activity_lvl" value="2" id="mediumActivityPenalty"><label for="mediumActivityPenalty">-6 to -15 activity penalty</label></div>
-            <div class="radio-container"> <input type="radio" name="activity_lvl" value="3" id="graveActivityPenalty"><label for="graveActivityPenalty">-16 to -30 activity penalty</label></div>
-            <div class="radio-container"> <input type="radio" name="activity_lvl" value="4" id="severeActivityPenalty"><label for="severeActivityPenalty">-31 to -45 activity penalty</label></div>
-            <div class="radio-container"> <input type="radio" name="activity_lvl" value="5" id="shouldDieActivityPenalty"><label for="shouldDieActivityPenalty">-50 and more activity penalty</label></div>
-        </fieldset>
+          </fieldset>
+          <fieldset>
+              <h3>Activity Penalty</h3>
+              <div class="radio-container"> <input type="radio" name="activity_lvl" value="0" checked id="noActivityPenalty"><label for="noActivityPenalty" >no activity penalty</label></div>
+              <div class="radio-container"> <input type="radio" name="activity_lvl" value="1" id="lightActivityPenalty"><label for="lightActivityPenalty">-5 activity penalty</label></div>
+              <div class="radio-container"> <input type="radio" name="activity_lvl" value="2" id="mediumActivityPenalty"><label for="mediumActivityPenalty">-6 to -15 activity penalty</label></div>
+              <div class="radio-container"> <input type="radio" name="activity_lvl" value="3" id="graveActivityPenalty"><label for="graveActivityPenalty">-16 to -30 activity penalty</label></div>
+              <div class="radio-container"> <input type="radio" name="activity_lvl" value="4" id="severeActivityPenalty"><label for="severeActivityPenalty">-31 to -45 activity penalty</label></div>
+              <div class="radio-container"> <input type="radio" name="activity_lvl" value="5" id="shouldDieActivityPenalty"><label for="shouldDieActivityPenalty">-50 and more activity penalty</label></div>
+          </fieldset>
 
-        <fieldset>
-            
-            <h3 >Hits taken</h3>
-            <div class="radio-container"> <input type="radio" name="hits_lvl" value="0" checked id="noDmg"><label for="noDmg" >&lt;10</label></div>
-            <div class="radio-container"> <input type="radio" name="hits_lvl" value="1" id="lightDmg"><label for="lightDmg">10-20 hits taken</label></div>
-            <div class="radio-container"> <input type="radio" name="hits_lvl" value="2" id="mediumDmg"><label for="mediumDmg">21-30 hits taken</label></div>
-            <div class="radio-container"> <input type="radio" name="hits_lvl" value="3" id="graveDmg"><label for="graveDmg">31-50 hits taken</label></div>
-            <div class="radio-container"> <input type="radio" name="hits_lvl" value="4" id="severeDmg"><label for="severeDmg">51-70 hits taken</label></div>
-            <div class="radio-container"> <input type="radio" name="hits_lvl" value="5" id="shouldDieDmg"><label for="shouldDieDmg">70+ hits taken</label></div>
+          <fieldset>
+              
+              <h3 >Hits taken</h3>
+              <div class="radio-container"> <input type="radio" name="hits_lvl" value="0" checked id="noDmg"><label for="noDmg" >&lt;10</label></div>
+              <div class="radio-container"> <input type="radio" name="hits_lvl" value="1" id="lightDmg"><label for="lightDmg">10-20 hits taken</label></div>
+              <div class="radio-container"> <input type="radio" name="hits_lvl" value="2" id="mediumDmg"><label for="mediumDmg">21-30 hits taken</label></div>
+              <div class="radio-container"> <input type="radio" name="hits_lvl" value="3" id="graveDmg"><label for="graveDmg">31-50 hits taken</label></div>
+              <div class="radio-container"> <input type="radio" name="hits_lvl" value="4" id="severeDmg"><label for="severeDmg">51-70 hits taken</label></div>
+              <div class="radio-container"> <input type="radio" name="hits_lvl" value="5" id="shouldDieDmg"><label for="shouldDieDmg">70+ hits taken</label></div>
 
-        </fieldset>
-        
-        </section>
-        <section>
-            <div class="nes-container is-dark  with-title is-centered">
-                <p class="title">Weeks to recover</p>
-                <p id="recoveryTime" class="nes-text">Nothing so far</p>
-              </div>
-            
-        </section>
-        
+          </fieldset>
+          
+          </section>
+          <section>
+              <div class="nes-container is-dark  with-title is-centered">
+                  <p class="title">Weeks to recover</p>
+                  <p id="recoveryTime" class="nes-text">Nothing so far</p>
+                </div>
+              
+          </section>
+          
+      </div>
     </div>
+  </div>
         <script>
             const severityTable = {
                 0:"none",
