@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css?family=Press+Start+2P" rel="stylesheet">
+    <link href="https://unpkg.com/nes.css@latest/css/nes.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="../css/style.css">
+    <title>Dice Roller</title>
+</head>
+<body>
+    <h1>Dice Roller</h1>
+    <hr>
+    <div>
+
+        <label for="baseValue">Base Value</label><input type="number" name="baseValue" id="baseValue" placeholder="0" autofocus>
+        <button type="button" id="rollButton" class="nes-btn is-primary">Roll</button>
+    </div>
+    
+    <hr>
+    
+        <div class="nes-container is-dark  with-title is-centered">
+            <p class="title">Result</p>
+            <p id="rollResult" class="nes-text">---</p>
+          </div>
+    
+
+
+
+    <script>
+         rollDie = (size) => {
+            return Math.floor((Math.random() * size)+1)
+        }
+
+        rollOpenEnded = (roll=0) => {
+            let result = rollDie(100);
+            if (result < 96){
+                return result + roll
+            }
+            
+            return rollOpenEnded(result)
+        }
+
+        rollSkill = ()=> {
+            const baseValue = new Number(document.getElementById("baseValue").value)
+            result = rollOpenEnded() + baseValue
+            
+            const rollResult = document.getElementById("rollResult")
+            rollResult.innerHTML = result
+        }
+        
+
+        const rollButton = document.getElementById("rollButton")
+        rollButton.onclick = rollSkill
+    </script>
+    
+
+</body>
+</html>
