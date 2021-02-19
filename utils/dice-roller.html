@@ -114,6 +114,12 @@
             else if(rolls[0] == 100){
                 return "ABSOLUTE SUCCESS"
             }
+            else if (rolls[0] <= new Number(fumbleValue.value)){
+                return "YOU FUMBLED, yes, the GM is smirking "
+            }
+            else if(rolls[0] >= new Number(openEndedValue)){
+                return "OPEN ENDED!!!"
+            }
             else if(rolls[0] == 11 || rolls[0] == 22 || rolls[0] == 33 || rolls[0] == 44 || rolls[0] == 55 || rolls[0] == 77 || rolls[0] == 88 || rolls[0] == 99){
                 return "WEAPON BREAKAGE"
             } else {
