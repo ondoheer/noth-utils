@@ -1,0 +1,20 @@
+{
+    "categories":[
+        {
+            "category1_id":{
+                "lifestyle_race": {
+                    "rural_man": 1
+                }
+            }
+        }
+    ],
+    "skills":[
+        {
+            "skill1_id":{
+                "lifestyle_race": {
+                    "rural_man": 1
+                }
+            }
+        }
+    ]
+}
