@@ -1,0 +1,295 @@
+{
+    "general_info":{
+        "name":"",
+        "age": 33,
+        "xp":14567,
+        "lvl":13,
+        "fate_points":3
+    },
+    "race":{
+        "race_id":"",
+        "race_name":"",
+        "race_bonuses":{
+            "st":0,
+            "ag":0,
+            "sd":0,
+            "in":0,
+            "co":0,
+            "qu":0,
+            "re":0,
+            "pr":0
+        },
+        "skill_bonuses":{
+            "skill1_id":0,
+            "skill2_id": 0
+        },
+        "talents_racial": {
+            "talent1_id":{
+                "talent_name": "extra clever",
+                "talent cost": 20,
+                "talent_type": "minor",
+                "talent_desc": "long text"
+            }
+        },
+        "flaws_racial":{
+            "flaw1_id":{
+                "flaw_name": "extra clever",
+                "flaw cost": 20,
+                "flaw_type": "minor",
+                "flaw_desc": "long text"
+            }
+        },
+        "adolescence_skill_ranks": {
+            "skill1_id": 3,
+            "skill2_id": 4
+        }
+    },
+    "stats":{
+        "st":{
+            "roll":46,
+            "bonus": 0,
+            "race": 0,
+            "spec": 0,
+            "total": 0
+        },
+        "ag":{
+            "roll":46,
+            "bonus": 0,
+            "race": 0,
+            "spec": 0,
+            "total": 0
+        },
+        "co":{
+            "roll":46,
+            "bonus": 0,
+            "race": 0,
+            "spec": 0,
+            "total": 0
+        },
+        "sd":{
+            "roll":46,
+            "bonus": 0,
+            "race": 0,
+            "spec": 0,
+            "total": 0
+        },
+        "qu":{
+            "roll":46,
+            "bonus": 0,
+            "race": 0,
+            "spec": 0,
+            "total": 0
+        },
+        "in":{
+            "roll":46,
+            "bonus": 0,
+            "race": 0,
+            "spec": 0,
+            "total": 0
+        },
+        "pr":{
+            "roll":46,
+            "bonus": 0,
+            "race": 0,
+            "spec": 0,
+            "total": 0
+        },
+        "re":{
+            "roll":46,
+            "bonus": 0,
+            "race": 0,
+            "spec": 0,
+            "total": 0
+        }
+    },
+    "traits":{
+        "trait1_id":{
+            "stats": ["ag","qu"],
+            "cost": 2,
+            "race_mod": 0,
+            "stat_value": 15,
+            "num_ranks": 10,
+            "ranks_value": 50,
+            "talent_bonus": 0,
+            "special":{
+                "reason1": 10,
+                "reason2":10
+            },
+            "total": 95
+        },
+        "trait2_id":{
+            "stats": ["ag","qu"],
+            "cost": 2,
+            "race_mod": 0,
+            "stat_value": 15,
+            "num_ranks": 10,
+            "ranks_value": 50,
+            "talent_bonus": 0,
+            "special":{
+                "reason1": 10,
+                "reason2":10
+            },
+            "total": 95
+        }
+    },
+    "categories":{
+        "category1_id":{
+            "stat": "ag",
+            "cost": 2,
+            "race_mod": 0,
+            "stat_value": 15,
+            "num_ranks": 10,
+            "ranks_value": 50,
+            "talent_bonus": 0,
+            "special":{
+                "reason1": 10,
+                "reason2":10
+            },
+            "total": 95
+        },
+        "category2_id":{
+            "stat": "ag",
+            "cost": 2,
+            "race_mod": 0,
+            "stat_value": 15,
+            "num_ranks": 10,
+            "ranks_value": 50,
+            "talent_bonus": 0,
+            "special":{
+                "reason1": 10,
+                "reason2":10
+            },
+            "total": 95
+        }
+    },
+    "skills":{
+        "skill1_id":{
+            "stat": "ag",
+            "cost": 2,
+            "race_mod": 0,
+            "stat_value": 15,
+            "num_ranks": 10,
+            "ranks_value": 50,
+            "cat_bonus": 40,
+            "talent_bonus": 0,
+            "special":{
+                "reason1": 10,
+                "reason2":10
+            },
+            "total": 135
+        },
+        "skill2_id":{
+            "stat": "ag",
+            "cost": 2,
+            "race_mod": 0,
+            "stat_value": 15,
+            "num_ranks": 10,
+            "ranks_value": 50,
+            "cat_bonus": 40,
+            "talent_bonus": 0,
+            "special":{
+                "reason1": 10,
+                "reason2":10
+            },
+            "total": 135
+        }
+    },
+    "talents_regular":[
+        {
+            "talent1_id":{
+            "talent_name": "extra clever",
+            "talent cost": 20,
+            "talent_type": "minor",
+            "talent_desc": "long text"
+            }
+        }
+    ],
+    "flaws_regular":[
+       {
+            "flaw1_id":{
+            "flaw_name": "extra clever",
+            "flaw cost": 20,
+            "flaw_type": "minor",
+            "flaw_desc": "long text"
+            }
+       }
+    ],
+    "training_packages":[
+        {
+            "training_package_name": "wandering doctor",
+            "ranks":{
+                "skill1_id": 3,
+                "skill2_id":1
+            },
+            "cost": 34
+        }
+    ],
+    "equipment":{
+        "slots_avaliable": 5,
+        "slots_left": 1,
+        "encumbrance_lvl": "minor",
+        "items": [
+            {
+                "item1_id":{
+                "name":"cantimplora",
+                "item_slots":2
+                }
+            }
+        ]
+    },
+    "armor":{
+        "head": {
+            "armor_type": "type_id",
+            "armor_part_bonus": 5
+        },
+        "torso": {
+            "armor_type": "type_id",
+            "armor_part_bonus": 5
+        },
+        "stomach_hip": {
+            "armor_type": "type_id",
+            "armor_part_bonus": 5
+        },
+        "arms": {
+            "armor_type": "type_id",
+            "armor_part_bonus": 5
+        },
+        "hands": {
+            "armor_type": "type_id",
+            "armor_part_bonus": 5
+        },
+        "legs": {
+            "armor_type": "type_id",
+            "armor_part_bonus": 5
+        },
+        "feet": {
+            "armor_type": "type_id",
+            "armor_part_bonus": 5
+        }
+    },
+    "shield":[
+        {
+            "trained": false,
+            "shield_type": "type_id",
+            "shield_name": "buckler",
+            "shield_base_bonus": 10,
+            "shield_spec_bonus": 0,
+            "shield_total_bonus": 10,
+            "shield_endurance":20
+        }
+    ],        
+    "weapons": [
+        {
+            "weapon_name": "longsword",
+            "weapon_category": "category_id",
+            "weapon_bonus":0,
+            "weapon_breakage": 7,
+            "weapon_strength": 56
+        }
+    ],
+    "spells":[
+        {
+            "spell_id": {}
+        }
+    ]
+}
