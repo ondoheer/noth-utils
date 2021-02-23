@@ -1,0 +1,1045 @@
+[
+  {
+    "Name": "Accelerated Healing",
+    "Type": "Main",
+    "Cost": "5",
+    "Req": "Constitution 80",
+    "Desc": "½ Natural Recovery Healing Time (except Magic Recovery)"
+  },
+  {
+    "Name": "Ambidexterity",
+    "Type": "Main",
+    "Cost": "20",
+    "Req": "-",
+    "Desc": "No penalty when using off-hand"
+  },
+  {
+    "Name": "Animal Cohort",
+    "Type": "Main",
+    "Cost": "25",
+    "Req": "History Background",
+    "Desc": "Gain highly intelligent animal companion. Communicate with signs or whistles."
+  },
+  {
+    "Name": "Bane",
+    "Type": "Main",
+    "Cost": "15(20*)",
+    "Req": "History Background",
+    "Desc": "+10 critical damage & No damage caps to 1 type of creature/race. May only be taken on 1st level unless GM/story grants."
+  },
+  {
+    "Name": "Battle Cry",
+    "Type": "Main",
+    "Cost": "30",
+    "Req": "Presence 80",
+    "Desc": "Once per day +10 to OB & DB after shouting Battle Cry for 1 combat. Must spent 2 turns to perform. While shouting ½ BMR walk only."
+  },
+  {
+    "Name": "Combat Awareness",
+    "Type": "Main",
+    "Cost": "20",
+    "Req": "Intuition 70, Perception 15R",
+    "Desc": "-30 Perception modifier during Combat (as free action) instead of -50"
+  },
+  {
+    "Name": "Combat Reflexes",
+    "Type": "Main",
+    "Cost": "20",
+    "Req": "Quickness 80",
+    "Desc": "Extra 10d to initiative roll. Cannot be taken together with Lightning Reflexes. If so cancel previous."
+  },
+  {
+    "Name": "Commanding Demeanor",
+    "Type": "Main",
+    "Cost": "25",
+    "Req": "Presence 90",
+    "Desc": "+20 to all Command rolls. Successful roll can grant allies a +10 to OB & DD until they get hit"
+  },
+  {
+    "Name": "Destiny Sense",
+    "Type": "Main",
+    "Cost": "10",
+    "Req": "Intuition 70",
+    "Desc": "Spent a Fate Point to get important insight on main objective."
+  },
+  {
+    "Name": "Ear for Music",
+    "Type": "Main",
+    "Cost": "10",
+    "Req": "Intuition 70",
+    "Desc": "+25 to Singing & Play Instruments Skills"
+  },
+  {
+    "Name": "Fair",
+    "Type": "Main",
+    "Cost": "25",
+    "Req": "Presence 90",
+    "Desc": "+10 to Communication reactive and Communication structured categories,  and +15 to appearance (max 105). May only be taken on 1st Level."
+  },
+  {
+    "Name": "Faithful (Mayor)",
+    "Type": "Main",
+    "Cost": "15",
+    "Req": "History Background",
+    "Desc": "Great Love and Devotion to Realm or Kingdom. When fighting to protect them +10 to parry and OB; +10 to RR Will against when related."
+  },
+  {
+    "Name": "Famous",
+    "Type": "Main",
+    "Cost": "20",
+    "Req": "History Background",
+    "Desc": "+20 to communication reactive category when your fame can help you. Plus the drawbacks of being famous. -20 to mingling when undisguised"
+  },
+  {
+    "Name": "General Weapon Master",
+    "Type": "Main",
+    "Cost": "40",
+    "Req": "Strenght 80, Agility 80",
+    "Desc": "+10 to all character weapon categories."
+  },
+  {
+    "Name": "Gifted teacher",
+    "Type": "Main",
+    "Cost": "10",
+    "Req": "Reasoning 70",
+    "Desc": "you can teach your skills at half the learning rate to other players"
+  },
+  {
+    "Name": "Gladden",
+    "Type": "Main",
+    "Cost": "10",
+    "Req": "Presence 90",
+    "Desc": "Successful music roll make characters that listen recover hit points & exhaustion at ½ time. Must perform for at least one hour. May only be taken at 1st level."
+  },
+  {
+    "Name": "Golden Throat",
+    "Type": "Main",
+    "Cost": "25",
+    "Req": "Presence 80",
+    "Desc": "+15 to any maneuver where verbally attempts to calm or persuade. (singing, public speaking, duping, trade, acting, etc.). May only be taken at 1st level."
+  },
+  {
+    "Name": "Great Arm",
+    "Type": "Main",
+    "Cost": "30",
+    "Req": "Strenght 80",
+    "Desc": "x2 normal range for all thrown weapons."
+  },
+  {
+    "Name": "Hammerhands",
+    "Type": "Main",
+    "Cost": "40",
+    "Req": "Strenght 80",
+    "Desc": "All Brawling attacks are resolved on the Crush Critical Table rather than the Martial Arts Strikes Critical Table."
+  },
+  {
+    "Name": "Hardy",
+    "Type": "Main",
+    "Cost": "25",
+    "Req": "Constitution 80",
+    "Desc": "All negative bonuses to the characters actions gained through critical strikes are ½"
+  },
+  {
+    "Name": "Hero of the Land",
+    "Type": "Main",
+    "Cost": "25",
+    "Req": "GM Ok + History Background",
+    "Desc": "Fate points grant a bonus of ± 80 instead of the regular ± 50. "
+  },
+  {
+    "Name": "Hoard (Lvl 1)",
+    "Type": "Main",
+    "Cost": "5",
+    "Req": "History Background",
+    "Desc": "1-50 sp. May only be taken at 1st level."
+  },
+  {
+    "Name": "Hoard (Lvl 2)",
+    "Type": "Main",
+    "Cost": "10",
+    "Req": "History Background",
+    "Desc": "51-500 sp. May only be taken at 1st level."
+  },
+  {
+    "Name": "Hoard (Lvl 3)",
+    "Type": "Main",
+    "Cost": "15",
+    "Req": "History Background",
+    "Desc": "501-5000sp. May only be taken at 1st level."
+  },
+  {
+    "Name": "Hoard (Lvl 4)",
+    "Type": "Main",
+    "Cost": "20",
+    "Req": "History Background",
+    "Desc": "5001-50000sp. May only be taken at 1st level."
+  },
+  {
+    "Name": "Hoard (Lvl 5)",
+    "Type": "Main",
+    "Cost": "40",
+    "Req": "History Background",
+    "Desc": "50001-500000sp. May only be taken at 1st level."
+  },
+  {
+    "Name": "Instinctive Defense",
+    "Type": "Main",
+    "Cost": "30",
+    "Req": "Intuition 80",
+    "Desc": "+10 to DB for all attacks. If aware of an incoming attack, may apply extra +10 to DB."
+  },
+  {
+    "Name": "Intensive Eyes",
+    "Type": "Main",
+    "Cost": "25",
+    "Req": "Presence 80",
+    "Desc": "+10 to all skill where he interacts with other people (duping, trading, seduction, diplomacy). The other person must be close enough to be looked directly by him."
+  },
+  {
+    "Name": "Lucky (Minor)",
+    "Type": "Main",
+    "Cost": "20",
+    "Req": "History Background",
+    "Desc": "High open ended roll range is 95-100."
+  },
+  {
+    "Name": "Lucky (Mayor)",
+    "Type": "Main",
+    "Cost": "30",
+    "Req": "History Background",
+    "Desc": "High open ended roll range is 94-100."
+  },
+  {
+    "Name": "Lucky (Greater)",
+    "Type": "Main",
+    "Cost": "40",
+    "Req": "History Background",
+    "Desc": "High open ended roll range is 93-100."
+  },
+  {
+    "Name": "Academic",
+    "Type": "Main",
+    "Cost": "30",
+    "Req": "Reasoning 80",
+    "Desc": "your fumbles for lore skills are reduced to 01-02, you gain 20 skill ranks to give to Science Analytic, Socio Economics and Social Sciences skills . Additionally, you gain a +10 on the selected skills."
+  },
+  {
+    "Name": "Massive",
+    "Type": "Main",
+    "Cost": "20",
+    "Req": "Constitution 80, Strength 80",
+    "Desc": "you may wield a two handed weapon with one hand, encumbrance penalties are halved, you have a -20 to fighting in close spaces"
+  },
+  {
+    "Name": "Miracle worker",
+    "Type": "Main",
+    "Cost": "25",
+    "Req": "Intuition 80, Treat wounds 20R, Treat Ailment 20R, Diagnose 10R",
+    "Desc": "you gain a +20 to Medicine category, also, all fate points spent in healing maneuvers grant an 80 instead of a 50"
+  },
+  {
+    "Name": "Neutral Odor",
+    "Type": "Main",
+    "Cost": "10",
+    "Req": "History Background",
+    "Desc": "The character’s body can mask the scent of any odor within 1.5m, wouldn't even leave an odor for any animals to find. May only be taken at 1st level."
+  },
+  {
+    "Name": "Outdoorsman",
+    "Type": "Main",
+    "Cost": "20",
+    "Req": "Intuition 80",
+    "Desc": "+15 to outdoors category"
+  },
+  {
+    "Name": "Photographic Memory",
+    "Type": "Main",
+    "Cost": "20",
+    "Req": "History Background",
+    "Desc": "Any 15 minutes or more studies will be placed into his memory. This also grants a +10 to all Science Analytic, Socio Economics and Social Sciences categories"
+  },
+  {
+    "Name": "Regeneration",
+    "Type": "Main",
+    "Cost": "15",
+    "Req": "Constitution 80",
+    "Desc": "Ability to negate permanent damage from all but fatal wounds. Recovery rate for non-fatal injuries is ½. "
+  },
+  {
+    "Name": "Rent (Lvl 1)",
+    "Type": "Main",
+    "Cost": "5",
+    "Req": "GM Ok + History Background",
+    "Desc": "1-10 sp monthly rent for some business the character is involved."
+  },
+  {
+    "Name": "Rent (Lvl 2)",
+    "Type": "Main",
+    "Cost": "10",
+    "Req": "GM Ok + History Background",
+    "Desc": "11-100 sp monthly rent for some business the character is involved."
+  },
+  {
+    "Name": "Rent (Lvl 3)",
+    "Type": "Main",
+    "Cost": "15",
+    "Req": "GM Ok + History Background",
+    "Desc": "11-100 gp monthly rent for some business the character is involved."
+  },
+  {
+    "Name": "Rent (Lvl 4)",
+    "Type": "Main",
+    "Cost": "25",
+    "Req": "GM Ok + History Background",
+    "Desc": "101-1000 gp monthly rent for some business the character is involved."
+  },
+  {
+    "Name": "Resilient",
+    "Type": "Main",
+    "Cost": "35",
+    "Req": "Constitution 80",
+    "Desc": "Any bleeding wounds (wounds giving hits per round) that the character receives have their rates ½ (round down)."
+  },
+  {
+    "Name": "Resistance -all (Mayor)",
+    "Type": "Main",
+    "Cost": "25",
+    "Req": "Constitution 80, Presence 70",
+    "Desc": "+10 bonus to all Resistance Rolls. Cannot be taken withother tlents that affect Resistance"
+  },
+  {
+    "Name": "Resistance -all (Greater)",
+    "Type": "Main",
+    "Cost": "40",
+    "Req": "Constitution 80, Presence 80",
+    "Desc": "+20 bonus to all Resistance Rolls. Cannot be taken withother tlents that affect Resistance"
+  },
+  {
+    "Name": "Sense Magic",
+    "Type": "Main",
+    "Cost": "10",
+    "Req": "Intuition 100",
+    "Desc": "To detect active magic, must roll general Perception (with -20 mod). May concentrate on any spot (max 1.5m²) within 300m. May only be taken at 1st level."
+  },
+  {
+    "Name": "Sponsor (Mayor)",
+    "Type": "Main",
+    "Cost": "20",
+    "Req": "History Background",
+    "Desc": "A powerful person knows you and considers you worthy of respect (eg. Queen, General, Governor). Grants you aid if able. May only be taken on 1st level."
+  },
+  {
+    "Name": "Stat Bonus (Mayor)",
+    "Type": "Main",
+    "Cost": "40",
+    "Req": "History Background",
+    "Desc": "+5 bonus to any stat.(Spec Column)"
+  },
+  {
+    "Name": "Stat Bonus (Greater)",
+    "Type": "Main",
+    "Cost": "70",
+    "Req": "History Background",
+    "Desc": "+8 bonus to any stat.(Spec Column)"
+  },
+  {
+    "Name": "Subtle",
+    "Type": "Main",
+    "Cost": "15",
+    "Req": "Agility 80, Intuition 80",
+    "Desc": "+10 bonus on all his subterfuge active skills."
+  },
+  {
+    "Name": "Sureshot",
+    "Type": "Main",
+    "Cost": "25",
+    "Req": "Strenght 80",
+    "Desc": "½ range increment penalties (from -10 to -5). May be taken multiple times, once for misile and one for thrown"
+  },
+  {
+    "Name": "Tolerance",
+    "Type": "Main",
+    "Cost": "20",
+    "Req": "Constitution 80",
+    "Desc": "Allow to take 150% hits loss before falling unconscious. Does not modified death limit hit points."
+  },
+  {
+    "Name": "Treacherous",
+    "Type": "Main",
+    "Cost": "25",
+    "Req": "Presence 90",
+    "Desc": "you gain a +20 to your communication reactive skills when you are not beign honest"
+  },
+  {
+    "Name": "Warrior Born",
+    "Type": "Main",
+    "Cost": "20",
+    "Req": "History Background",
+    "Desc": "fate points spent on combat actions give +80 instead of the usual +50."
+  },
+  {
+    "Name": "Waterdancer",
+    "Type": "Main",
+    "Cost": "25",
+    "Req": "History Background",
+    "Desc": "Ag stat bonus x2 added to DB (on top of Qu bonus) if character passes an acrobatics maneuver. Character has to be using no more than a Soft Leather armor and a buckler. No two handed weapon allowed."
+  },
+  {
+    "Name": "Natural Commander",
+    "Type": "Main",
+    "Cost": "15",
+    "Req": "reasoning 80",
+    "Desc": "+10 to warfare category"
+  },
+  {
+    "Name": "Animal Empathy",
+    "Type": "Secondary",
+    "Cost": "10",
+    "Req": "Intuition 70",
+    "Desc": "+20 Maneuvers with 1 type of animal. Communicate empathically if spent 1 month with specific being (Range: 30cm per month)"
+  },
+  {
+    "Name": "Artistic",
+    "Type": "Secondary",
+    "Cost": "10",
+    "Req": "Agility 60, Intuition 60",
+    "Desc": "+10 Performance category"
+  },
+  {
+    "Name": "Athletic",
+    "Type": "Secondary",
+    "Cost": "15",
+    "Req": "Agility 60, Strenght 60",
+    "Desc": "+10 to Skills Climbing, Jumping, Acrobatics, Swimming"
+  },
+  {
+    "Name": "Blazing Speed",
+    "Type": "Secondary",
+    "Cost": "10",
+    "Req": "Quickness 80",
+    "Desc": "+5' (1.5 m.) to BMR. May only be taken on 1st level"
+  },
+  {
+    "Name": "Charismatic",
+    "Type": "Secondary",
+    "Cost": "20",
+    "Req": "Presence 90",
+    "Desc": "+10 to skills seduction, trade, public speaking and convince"
+  },
+  {
+    "Name": "Climber",
+    "Type": "Secondary",
+    "Cost": "10",
+    "Req": "Agility 90",
+    "Desc": "+20 to all Climbing maneuvers"
+  },
+  {
+    "Name": "Disarm Skill",
+    "Type": "Secondary",
+    "Cost": "15",
+    "Req": "Agility 90",
+    "Desc": "+30 to Disarm Foe attempts."
+  },
+  {
+    "Name": "Diver",
+    "Type": "Secondary",
+    "Cost": "10",
+    "Req": "Strenght 70",
+    "Desc": "+20 to Swimming Skill"
+  },
+  {
+    "Name": "Dodge",
+    "Type": "Secondary",
+    "Cost": "10",
+    "Req": "Intuition 70",
+    "Desc": "+20 to dodging maneuvers"
+  },
+  {
+    "Name": "Drowsing (Lesser)",
+    "Type": "Secondary",
+    "Cost": "5",
+    "Req": "Agility 70",
+    "Desc": "This is the ability of the character to manage to properly rest while wearing Soft Leather armor without any penalties"
+  },
+  {
+    "Name": "Drowsing (Minor)",
+    "Type": "Secondary",
+    "Cost": "10",
+    "Req": "Strenght 80",
+    "Desc": "This is the ability of the character to manage to properly rest while wearing Rigid Leather armor without any penalties"
+  },
+  {
+    "Name": "Drowsing (Mayor)",
+    "Type": "Secondary",
+    "Cost": "15",
+    "Req": "Strenght 70",
+    "Desc": "This is the ability of the character to manage to properly rest while wearing Chainmail armor without any penalties"
+  },
+  {
+    "Name": "Drowsing (Greater)",
+    "Type": "Secondary",
+    "Cost": "20",
+    "Req": "Agility 60",
+    "Desc": "This is the ability of the character to manage to properly rest while wearing Plate & Chain armor without any penalties"
+  },
+  {
+    "Name": "Drowsing (Uncanny)",
+    "Type": "Secondary",
+    "Cost": "25",
+    "Req": "Strenght 90",
+    "Desc": "This is the ability of the character to manage to properly rest while wearing Full Plate armor without any penalties"
+  },
+  {
+    "Name": "Trap Specialist",
+    "Type": "Secondary",
+    "Cost": "10",
+    "Req": "Intuition 60, Reasoning 60",
+    "Desc": "+15 bonus to Disarm Locks & Traps"
+  },
+  {
+    "Name": "Enhance Senses",
+    "Type": "Secondary",
+    "Cost": "15",
+    "Req": "Intuition 70",
+    "Desc": "+10 to Perception active and passive rolls."
+  },
+  {
+    "Name": "Extremely Nimble",
+    "Type": "Secondary",
+    "Cost": "10",
+    "Req": "Agility 90, Intuition 90",
+    "Desc": "+10 to Stalking & Hiding, contorsions and Acrobatics skills"
+  },
+  {
+    "Name": "Face in the crowd",
+    "Type": "Secondary",
+    "Cost": "15",
+    "Req": "Presence must be less than or equal to 70",
+    "Desc": "+20 to mingle"
+  },
+  {
+    "Name": "Favor of Fortune",
+    "Type": "Secondary",
+    "Cost": "20",
+    "Req": "-",
+    "Desc": "Once per gaming session you may re-roll any dice you rolled. You may buy this talent many times."
+  },
+  {
+    "Name": "Favor of the nobles",
+    "Type": "Secondary",
+    "Cost": "20",
+    "Req": "Presence 80",
+    "Desc": "if you are lowborn and without a title, you gain a +10 to communication rolls against anyone of higher status"
+  },
+  {
+    "Name": "Favor of the small folk",
+    "Type": "Secondary",
+    "Cost": "20",
+    "Req": "Presence 80",
+    "Desc": "if you are a noble or knight you get a +10 to communication rolls against anyone of lower status"
+  },
+  {
+    "Name": "Favorite Library (Minor)",
+    "Type": "Secondary",
+    "Cost": "5",
+    "Req": "History Background",
+    "Desc": "+20 bonus to all your lore Science when looking for information in your library; may be a small Lord or merchant library. May only be taken at 1st level."
+  },
+  {
+    "Name": "Favorite Library (Mayor)",
+    "Type": "Secondary",
+    "Cost": "20",
+    "Req": "History Background",
+    "Desc": "+40 bonus to all your science skills when looking for information in your library; may be a Region Lord or Scholar merchant library. May only be taken at 1st level."
+  },
+  {
+    "Name": "Fluent",
+    "Type": "Secondary",
+    "Cost": "15",
+    "Req": "History Background",
+    "Desc": "+20 extra ranks to distribute between language skills, written and spoken. May only be taken at 1st level."
+  },
+  {
+    "Name": "Geographical Awareness",
+    "Type": "Secondary",
+    "Cost": "10",
+    "Req": "Intuition 80",
+    "Desc": "+10 to navigation and cartography."
+  },
+  {
+    "Name": "Guttersnipe",
+    "Type": "Secondary",
+    "Cost": "10",
+    "Req": "Agility 80",
+    "Desc": "pickpockets fumble reduced to 01-02"
+  },
+  {
+    "Name": "Hardmarch",
+    "Type": "Secondary",
+    "Cost": "20",
+    "Req": "Constitution 80",
+    "Desc": "Travel at normal speeds without penalty on chosen terrain. This talent may be taken many times."
+  },
+  {
+    "Name": "Heirloom",
+    "Type": "Secondary",
+    "Cost": "15",
+    "Req": "GM Ok + History Background",
+    "Desc": "you inherit an item of superior quiality of your choice. For example a +15 sword"
+  },
+  {
+    "Name": "Herbalist",
+    "Type": "Secondary",
+    "Cost": "5",
+    "Req": "Intuition 70",
+    "Desc": "+5 to cooking, foraging, herbcraft and poison lore."
+  },
+  {
+    "Name": "Heroic Resistance",
+    "Type": "Secondary",
+    "Cost": "25",
+    "Req": "Constitution 70",
+    "Desc": "Successful resistance stamina bonus maneuver uses the granted bonus to negate the penalties for low hit points."
+  },
+  {
+    "Name": "High Jumper",
+    "Type": "Secondary",
+    "Cost": "10",
+    "Req": "Agility 70",
+    "Desc": "+10 to jumping skill."
+  },
+  {
+    "Name": "Internal Clock",
+    "Type": "Secondary",
+    "Cost": "10",
+    "Req": "Intuition 80",
+    "Desc": "successful perception maneuver can let you know exactly the elapsed time."
+  },
+  {
+    "Name": "Internal Sense",
+    "Type": "Secondary",
+    "Cost": "25",
+    "Req": "Constitution 80",
+    "Desc": "+20 on stamina rolls to resist stunning. Stunned maneuvering penalties are reduced to -30 instead of -50."
+  },
+  {
+    "Name": "Judge of Weaponry",
+    "Type": "Secondary",
+    "Cost": "10",
+    "Req": "Intuition 70",
+    "Desc": "You can’t be tricked concerning to a weapon's quality, you have a special +35 to appraisal (weapons)."
+  },
+  {
+    "Name": "Lie Perception",
+    "Type": "Secondary",
+    "Cost": "15",
+    "Req": "Intuition 80",
+    "Desc": "+20 to lie perception maneuvers. Distance may hinder your percetion"
+  },
+  {
+    "Name": "Light Sleeper",
+    "Type": "Secondary",
+    "Cost": "5",
+    "Req": "Intuition 70, Perception 15R",
+    "Desc": "You can make a perception passive roll at -50 to wake from sleep if an unknown danger approaches."
+  },
+  {
+    "Name": "Lightning Reflexes",
+    "Type": "Secondary",
+    "Cost": "10",
+    "Req": "Quickness 80",
+    "Desc": "+5 to initiative roll. Cannot be taken together with Combat Reflexes. If so cancel previous."
+  },
+  {
+    "Name": "Lucky Dramatic (Lesser)",
+    "Type": "Secondary",
+    "Cost": "5",
+    "Req": "History Background",
+    "Desc": "High open ended roll range is 95-100 and low open ended roll range is 01-06."
+  },
+  {
+    "Name": "Lucky Dramatic (Minor)",
+    "Type": "Secondary",
+    "Cost": "15",
+    "Req": "History Background",
+    "Desc": "High open ended roll range is 94-100 and low open ended roll range is 01-07."
+  },
+  {
+    "Name": "Lucky Dramatic (Mayor)",
+    "Type": "Secondary",
+    "Cost": "25",
+    "Req": "History Background",
+    "Desc": "High open ended roll range is 93-100 and low open ended roll range is 01-08."
+  },
+  {
+    "Name": "Lucky Dramatic (Greater)",
+    "Type": "Secondary",
+    "Cost": "35",
+    "Req": "History Background",
+    "Desc": "High open ended roll range is 92-100 and low open ended roll range is 01-09."
+  },
+  {
+    "Name": "Manual Deftness",
+    "Type": "Secondary",
+    "Cost": "10",
+    "Req": "Agility 80",
+    "Desc": "+10 to sleight of hand & disarm locks and traps."
+  },
+  {
+    "Name": "Master Craftsman",
+    "Type": "Secondary",
+    "Cost": "15",
+    "Req": "Agility 80",
+    "Desc": "+10 bonus to all crafting skills and +35 to a particular one."
+  },
+  {
+    "Name": "Missile Deflection",
+    "Type": "Secondary",
+    "Cost": "30",
+    "Req": "Agility 80, Intuition 80",
+    "Desc": "When Missile Deflection Combat Action is used +1 to DB for every 2 points put into the parry (instead of every 5 points)."
+  },
+  {
+    "Name": "Natural Facility with Armor",
+    "Type": "Secondary",
+    "Cost": "10",
+    "Req": "Strenght 90 Ag 80",
+    "Desc": "+10 to armor skill, reduces the minimum armor penalty by 5"
+  },
+  {
+    "Name": "Natural Rider",
+    "Type": "Secondary",
+    "Cost": "20",
+    "Req": "Agility 70, Intuition 70",
+    "Desc": "+15 Animals category skills when related to horses"
+  },
+  {
+    "Name": "Night Training",
+    "Type": "Secondary",
+    "Cost": "25",
+    "Req": "Intuition 90",
+    "Desc": "All penalties caused by low-light conditions or total darkness are ½."
+  },
+  {
+    "Name": "Nimble Skeleton",
+    "Type": "Secondary",
+    "Cost": "10",
+    "Req": "Agility 90",
+    "Desc": "+25 to contortions."
+  },
+  {
+    "Name": "Peripherical Vision",
+    "Type": "Secondary",
+    "Cost": "5",
+    "Req": "GM Ok + History Background",
+    "Desc": "-5 penalty for flanking attacks, -15 for rear attacks. However, appearance roll is determined on a 2d10, instead of 1d100. May only be taken at 1st level."
+  },
+  {
+    "Name": "Physick",
+    "Type": "Secondary",
+    "Cost": "15",
+    "Req": "Reasoning 90",
+    "Desc": "+10 bonus to the medicine category"
+  },
+  {
+    "Name": "Portage Skills",
+    "Type": "Secondary",
+    "Cost": "10",
+    "Req": "Strenght 90",
+    "Desc": "The character can one more extra slot without penalty"
+  },
+  {
+    "Name": "Quick Calculator",
+    "Type": "Secondary",
+    "Cost": "10",
+    "Req": "Reasoning 90, Intuition 80",
+    "Desc": "+25 to trading."
+  },
+  {
+    "Name": "Quick Draw",
+    "Type": "Secondary",
+    "Cost": "10",
+    "Req": "Quickness 80",
+    "Desc": "Weapon is drawn as a free action."
+  },
+  {
+    "Name": "Quiet Stride",
+    "Type": "Secondary",
+    "Cost": "20",
+    "Req": "Intuition 80, Agility 80",
+    "Desc": "+20 to Stalking&Hiding maneuvers."
+  },
+  {
+    "Name": "Reduced Sleep Requirement",
+    "Type": "Secondary",
+    "Cost": "15",
+    "Req": "Constitution 80",
+    "Desc": "½ required sleep time."
+  },
+  {
+    "Name": "Refuge",
+    "Type": "Secondary",
+    "Cost": "15",
+    "Req": "History Background",
+    "Desc": "Cave, small country house, safe house in a city. No special defenses or secret doors, just a small place to rest or hide. This talent may be taken many times."
+  },
+  {
+    "Name": "Resistance Stamina (Minor)",
+    "Type": "Secondary",
+    "Cost": "15",
+    "Req": "Constitution 70",
+    "Desc": "+10 bonus to all Stamina-based Resistance Rolls. Cannot be taken withother tlents that affect Resistance"
+  },
+  {
+    "Name": "Resistance Stamina (Mayor)",
+    "Type": "Secondary",
+    "Cost": "25",
+    "Req": "Constitution 80",
+    "Desc": "+20 bonus to all Stamina-based Resistance Rolls. Cannot be taken withother tlents that affect Resistance"
+  },
+  {
+    "Name": "Resistance Will (Minor)",
+    "Type": "Secondary",
+    "Cost": "15",
+    "Req": "Presence 70",
+    "Desc": "+10 bonus to all Will-based Resistance Rolls. Cannot be taken withother tlents that affect Resistance"
+  },
+  {
+    "Name": "Resistance Will (Mayor)",
+    "Type": "Secondary",
+    "Cost": "25",
+    "Req": "Presence 80",
+    "Desc": "+20 bonus to all Will-based Resistance Rolls. Cannot be taken withother tlents that affect Resistance"
+  },
+  {
+    "Name": "Ropecraft",
+    "Type": "Secondary",
+    "Cost": "10",
+    "Req": "Agility 90",
+    "Desc": "+25 bonus to the ropemastery skill."
+  },
+  {
+    "Name": "Scholar",
+    "Type": "Secondary",
+    "Cost": "15",
+    "Req": "Reasoning 90",
+    "Desc": "+10 bonus to Science Analytic, Socio Economics and Social Sciences skills"
+  },
+  {
+    "Name": "Sea Legs",
+    "Type": "Secondary",
+    "Cost": "10",
+    "Req": "Agility 70",
+    "Desc": "No penalties when performing actions on a Ship, even if passing through a storm."
+  },
+  {
+    "Name": "Shield Attack",
+    "Type": "Secondary",
+    "Cost": "10",
+    "Req": "Weapon&Shield 20R",
+    "Desc": "+25 to his shield attacks."
+  },
+  {
+    "Name": "Shield Training",
+    "Type": "Secondary",
+    "Cost": "10",
+    "Req": "Agility 60, Strenght 60",
+    "Desc": "Enables the Trained bonus on any shield"
+  },
+  {
+    "Name": "Skill Specialization",
+    "Type": "Secondary",
+    "Cost": "10",
+    "Req": "Selected Skill 20R",
+    "Desc": "+10 bonus to a single skill. This Talent may be taken no more than three times, for a different skill each time. (free Addon)"
+  },
+  {
+    "Name": "Speed Loader (Bows)",
+    "Type": "Secondary",
+    "Cost": "10",
+    "Req": "Agility 80, Quickness 80",
+    "Desc": "May reload and fire every other round. This Talent may be taken multiple times for a different type of missile weapon each time."
+  },
+  {
+    "Name": "Speed Loader (Crossbows)",
+    "Type": "Secondary",
+    "Cost": "10",
+    "Req": "Strenght 80, Agility 80",
+    "Desc": "Reload and fire time is ½ (round up). This Talent may be taken multiple times for a different type of missile weapon each time."
+  },
+  {
+    "Name": "Speed Loader (Slings)",
+    "Type": "Secondary",
+    "Cost": "10",
+    "Req": "Agility 80, Quickness 80",
+    "Desc": "May reload and fire every other round. This Talent may be taken multiple times for a different type of missile weapon each time."
+  },
+  {
+    "Name": "Speed Reading",
+    "Type": "Secondary",
+    "Cost": "5",
+    "Req": "Reasoning 70",
+    "Desc": "The character can read up to ten pages per minute."
+  },
+  {
+    "Name": "Sponsor (Minor)",
+    "Type": "Secondary",
+    "Cost": "10",
+    "Req": "History Background",
+    "Desc": "A powerful person knows you and considers you worthy of respect (eg. Faramir). Grants you aid if able. May only be taken on 1st level."
+  },
+  {
+    "Name": "Stability Sense",
+    "Type": "Secondary",
+    "Cost": "15",
+    "Req": "Constitution 80",
+    "Desc": "Stunned rounds reduce by 1 round. If a strike results in only one round of stun, then it has no effect."
+  },
+  {
+    "Name": "Stat Bonus (Lesser)",
+    "Type": "Secondary",
+    "Cost": "10",
+    "Req": "History Background",
+    "Desc": "+1 bonus to any stat. (Spec Column)"
+  },
+  {
+    "Name": "Stat Bonus (Minor)",
+    "Type": "Secondary",
+    "Cost": "20",
+    "Req": "History Background",
+    "Desc": "+3 bonus to any stat.(Spec Column)"
+  },
+  {
+    "Name": "Steel Grip",
+    "Type": "Secondary",
+    "Cost": "20",
+    "Req": "Strenght 70",
+    "Desc": "Resist weapon disarming with a +20 bonus, all his fumble ranges for melee weapons are reduced by 1. No fumble range can go below 1."
+  },
+  {
+    "Name": "Urbanite",
+    "Type": "Secondary",
+    "Cost": "20",
+    "Req": "Presence 80",
+    "Desc": "you have a +10 in the urban category and your are able to dig information in half the time."
+  },
+  {
+    "Name": "Strong Lungs",
+    "Type": "Secondary",
+    "Cost": "15",
+    "Req": "Constitution 80",
+    "Desc": "Allowed to hold his breath for 10 seconds plus 1 minute per Constitution bonus (minimum of 10 seconds)."
+  },
+  {
+    "Name": "Survival Instinct",
+    "Type": "Secondary",
+    "Cost": "10",
+    "Req": "History Background",
+    "Desc": "+20 DB to full parry combat action, instead of +10."
+  },
+  {
+    "Name": "Swift Dresser",
+    "Type": "Secondary",
+    "Cost": "10",
+    "Req": "Quickness 70, Agility 70",
+    "Desc": "75% time to put on armor. Allowed to develop swift dressing skill. Skill may lower dressing time to a minimum of 25%."
+  },
+  {
+    "Name": "Taletelling",
+    "Type": "Secondary",
+    "Cost": "10",
+    "Req": "Presence 90",
+    "Desc": "+25 to storytelling and poetry skills"
+  },
+  {
+    "Name": "Tireless",
+    "Type": "Secondary",
+    "Cost": "10",
+    "Req": "Constitution 80",
+    "Desc": "½ penalties for not sleeping or eating."
+  },
+  {
+    "Name": "Toughness",
+    "Type": "Secondary",
+    "Cost": "15",
+    "Req": "Endurance 20R",
+    "Desc": "+20 to endurance skill."
+  },
+  {
+    "Name": "Travel Sense",
+    "Type": "Secondary",
+    "Cost": "20",
+    "Req": "Intuition 70",
+    "Desc": "Character always knows where the north is. +20 to navigation"
+  },
+  {
+    "Name": "Treacherous Blow",
+    "Type": "Secondary",
+    "Cost": "15",
+    "Req": "Presence 70",
+    "Desc": "+10 to Dirty Fighting maneuver"
+  },
+  {
+    "Name": "Walk Without Trace",
+    "Type": "Secondary",
+    "Cost": "15",
+    "Req": "Agility 80, Intuition 80",
+    "Desc": "foes have a -40 penalty to track you on a certain type of terrain. Talent may be taken multiple times, one foe every type of terrain."
+  },
+  {
+    "Name": "Weapon Control",
+    "Type": "Secondary",
+    "Cost": "25",
+    "Req": "Agility 70, Strenght 70",
+    "Desc": "Character's main weapon reduces fumble range by -2, all other weapon by -1, to a minimum of 1."
+  },
+  {
+    "Name": "Mummer",
+    "Type": "Secondary",
+    "Cost": "10",
+    "Req": "Presence 80, Intuition 80",
+    "Desc": "you have to roll a difficult performance maneuver, if you succeed you earn 1d10 sp, for every other degree of success you earn 2 aditional coins."
+  },
+  {
+    "Name": "Potential Stat (Lesser)",
+    "Type": "Secondary",
+    "Cost": "10",
+    "Req": "Stat 0-61",
+    "Desc": "Increase potential stat limit of stat under 61 by 1d10+5. Talent can be taken multiple times."
+  },
+  {
+    "Name": "Potential Stat (Minor)",
+    "Type": "Secondary",
+    "Cost": "15",
+    "Req": "Stat 62-81",
+    "Desc": "Increase potential stat limit of stat under 71 by 1d10+5 or stat under 81 by 1d6+4. Talent can be taken multiple times."
+  },
+  {
+    "Name": "Potential Stat (Mayor)",
+    "Type": "Secondary",
+    "Cost": "20",
+    "Req": "Stat 82-91",
+    "Desc": "Increase potential stat limit of stat under 95 by 1d6+4. Talent can be taken up to 3 times."
+  },
+  {
+    "Name": "Potential Stat (Greater)",
+    "Type": "Secondary",
+    "Cost": "25",
+    "Req": "Stat 92 & up",
+    "Desc": "Increase potential stat limit of stat above 92 by 1d6+4. Talent can be taken up to 3 times for Stats under 95 or up to 2 times for Stats 96 and above."
+  },
+  {
+    "Name": "Preferred Weapon",
+    "Type": "Secondary",
+    "Cost": "20",
+    "Req": "History Background",
+    "Desc": "In one weapon group (ex. Short blades) you give one weapon a special +10 bonus, but a -15 to all the other weapons in that category."
+  },
+  {
+    "Name": "Racial Training",
+    "Type": "Secondary",
+    "Cost": "20",
+    "Req": "History Background",
+    "Desc": "+10 bonus to 4 adolescence skills, no weapon skill may be favored by this talent."
+  }
+ ]
