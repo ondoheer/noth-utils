@@ -1,0 +1,716 @@
+[
+  {
+    "Name": "Addiction Simple",
+    "Type": "Flaws",
+    "Cost": -5,
+    "Req": "",
+    "Desc": "You are addicted to a common substance (e.g., alcohol, pipe weed) whenever you don’t get your fix you must make a resistance will hard maneuver not to be at -5 to all your maneuvers for each day that passes."
+  },
+  {
+    "Name": "Age",
+    "Type": "Flaws",
+    "Cost": -10,
+    "Req": "",
+    "Desc": "You have reached at least middle age for your race. You must roll stat deterioration roll each year. You are older, probably wiser and a little slower."
+  },
+  {
+    "Name": "Albino",
+    "Type": "Flaws",
+    "Cost": -10,
+    "Req": "",
+    "Desc": "You were born an albino; have pale-white hair & skin. Cannot blend into a crowd without disguise; have no resistance to sunburn, and thus must take many precautions against the sun. If under the sun without protection take 5 hits damage per hour until you find shelter."
+  },
+  {
+    "Name": "Animal Bane",
+    "Type": "Flaws",
+    "Cost": -10,
+    "Req": "",
+    "Desc": "You produce an aroma that drives a specified kind of animal insane. This cannot be mask, even by magical means. This animal will attack you ferociously. 50% chance a pack of them will hunt you down whenever you are in their territory. (                                                        )"
+  },
+  {
+    "Name": "Ansomnia",
+    "Type": "Flaws",
+    "Cost": -5,
+    "Req": "",
+    "Desc": "You have no sense of smell, you cannot make perception rolls using this sense"
+  },
+  {
+    "Name": "Bad temper",
+    "Type": "Flaws",
+    "Cost": -10,
+    "Req": "",
+    "Desc": "Great tendency towards violence when dealing with stressful situations. If insulted, offended or under stress; must make a Resistance Will very hard maneuver not to loose your temper. Must react in a violent way, although not necessarily fatal. It takes you 5-50 turns to calm down"
+  },
+  {
+    "Name": "Bastard born",
+    "Type": "Flaws",
+    "Cost": -20,
+    "Req": "",
+    "Desc": "you have a -30 to all intrigue maneuvers against a noble"
+  },
+  {
+    "Name": "Battle Confusion",
+    "Type": "Flaws",
+    "Cost": -15,
+    "Req": "",
+    "Desc": "You have a -30 penalty to your battle perception"
+  },
+  {
+    "Name": "Blood Guilt",
+    "Type": "Flaws",
+    "Cost": -15,
+    "Req": "",
+    "Desc": "You experience guilt and become depressed anytime you cause the death of a human being. If you injure severely or kill another human (humanoid races of your alignment count as well) you operate at -25 for the next 1d10 days while you deal with your guilt"
+  },
+  {
+    "Name": "Bloodlust",
+    "Type": "Flaws",
+    "Cost": -20,
+    "Req": "",
+    "Desc": "Death is your mojo in battle. Every encounter is to the death. You make sure they are dead even if they look like it. Don’t have to be a volatile person, however, if combat starts you go for the throat. Surrender is not an option, must make Resistance Will very hard maneuver to let one go. In intrigues, your opponents intrigue defense gains a +20"
+  },
+  {
+    "Name": "Breaker",
+    "Type": "Flaws",
+    "Cost": -20,
+    "Req": "",
+    "Desc": "You tend to break stuff, all your breakage numbers for any weapon or equipment are increased by 2, and the strength throw of the weapon to determine breakage have a -20 modifier."
+  },
+  {
+    "Name": "Chivalrous",
+    "Type": "Flaws",
+    "Cost": -15,
+    "Req": "",
+    "Desc": "Honorable fights are your life. Your ethics code is based on doing what’s honorable and right. You always fight fair, including returning a weapon to a foe if they lose it, dismounting if your foe is on foot and never attacking people from behind. Always maintain a high standard of courtesy"
+  },
+  {
+    "Name": "Color Blind",
+    "Type": "Flaws",
+    "Cost": -5,
+    "Req": "",
+    "Desc": "You cannot see colors, this is a minor problem, but it can bring trouble"
+  },
+  {
+    "Name": "Compulsive Behavior",
+    "Type": "Flaws",
+    "Cost": -10,
+    "Req": "",
+    "Desc": "You have a compulsive behavior that you must indulge as often as possible. You may choose it subject to the GM approval. You have to spent a lot of time on that behavior and a considerable amount of your income. It could be for example betting."
+  },
+  {
+    "Name": "Craven",
+    "Type": "Flaws",
+    "Cost": -30,
+    "Req": "",
+    "Desc": "when in combat or intrigue you gain a -20 to all maneuvers unless you pass a difficult resistance will maneuver"
+  },
+  {
+    "Name": "Crippled",
+    "Type": "Flaws",
+    "Cost": -20,
+    "Req": "",
+    "Desc": "You have lost some mobility because you are crippled in one leg. Your movement is reduced by half. You receive a -10 to all Ag maneuvers and a   -3 to your Qu bonus."
+  },
+  {
+    "Name": "Dark Pact",
+    "Type": "Flaws",
+    "Cost": -10,
+    "Req": "",
+    "Desc": "You made some kind of deal with a dark being (which resulted in your most powerful talent). To pay for this 'blessed gift', you will be visited at random time by this force to remind of the deal and demand something from you. It will never help you again."
+  },
+  {
+    "Name": "Deaf",
+    "Type": "Flaws",
+    "Cost": -20,
+    "Req": "",
+    "Desc": "You are completely deaf. You operate at -100 to all actions that require hearing. All your starting spoken languages are reduced 2 ranks. Spoken languages cost you 4 DPs now"
+  },
+  {
+    "Name": "Debt",
+    "Type": "Flaws",
+    "Cost": -10,
+    "Req": "",
+    "Desc": "all prices of items are doubled for you"
+  },
+  {
+    "Name": "Deep Sleeper",
+    "Type": "Flaws",
+    "Cost": -10,
+    "Req": "",
+    "Desc": "You cannot be awakened during your first hour of sleep, no matter what occurs around you. After the first hour you may awaken but you suffer a -25 to the perception maneuver to wake up"
+  },
+  {
+    "Name": "Dependent",
+    "Type": "Flaws",
+    "Cost": -10,
+    "Req": "",
+    "Desc": "You deeply care about a person. This dependency may be used against you, and persuade you into doing something you normally wouldn't. This dependency requires you to protect him in any way. It is a single person, e.g. a child, someone you have been asked to guard “forever”, etc."
+  },
+  {
+    "Name": "Disavowed Weapons",
+    "Type": "Flaws",
+    "Cost": -25,
+    "Req": "",
+    "Desc": "You have vowed not to use weapons. You receive a -15 penalty in all the weapon and weapon related skills."
+  },
+  {
+    "Name": "Duty (Greater)",
+    "Type": "Flaws",
+    "Cost": -15,
+    "Req": "",
+    "Desc": "You have a responsibility to a particular individual or organization. When they call for you, it is your duty to cease everything you are doing and attend their bidding. It is something imposed to you from the outside. Every month GM determines if you are called. (75% chance)"
+  },
+  {
+    "Name": "Duty (Major)",
+    "Type": "Flaws",
+    "Cost": -10,
+    "Req": "",
+    "Desc": "You have a responsibility to a particular individual or organization. When they call for you, it is your duty to cease everything you are doing and attend their bidding. It is something imposed to you from the outside. Every month GM determines if you are called. (50% chance)"
+  },
+  {
+    "Name": "Duty (Minor)",
+    "Type": "Flaws",
+    "Cost": -5,
+    "Req": "",
+    "Desc": "You have a responsibility to a particular individual or organization. When they call for you, it is your duty to cease everything you are doing and attend their bidding. It is something imposed to you from the outside. Every month GM determines if you are called. (25% chance)"
+  },
+  {
+    "Name": "Easy Mark",
+    "Type": "Flaws",
+    "Cost": -20,
+    "Req": "",
+    "Desc": "You are easy to hit when being sniped or ambushed, whoever attacks you like that gets a +25 to the maneuver and 5 extra ranks to add to the critical roll."
+  },
+  {
+    "Name": "Eunuch",
+    "Type": "Flaws",
+    "Cost": -5,
+    "Req": "",
+    "Desc": "You no longer have your manhood. You can neither seduce nor be seduced sexually. In addition you are not as quick to anger"
+  },
+  {
+    "Name": "Fanatic",
+    "Type": "Flaws",
+    "Cost": -10,
+    "Req": "",
+    "Desc": "You believe in something above all. Whether it is a religion, a way of life, a realm or someone, you think it is worth dying for"
+  },
+  {
+    "Name": "Fear (Major)",
+    "Type": "Flaws",
+    "Cost": -20,
+    "Req": "",
+    "Desc": "You have a major fear for something, if you face it there is a 50% chance you will run away, and if you stay there is a 25% chance you will fall unconscious (common creature like, orc, women, dunledings. Etc)"
+  },
+  {
+    "Name": "Fear (Minor)",
+    "Type": "Flaws",
+    "Cost": -10,
+    "Req": "",
+    "Desc": "You have a major fear for something, if you face it there is a 50% chance you will run away, and if you stay there is a 25% chance you will fall unconscious (rare fantastic creature like, warg, troll, ent)"
+  },
+  {
+    "Name": "Fear of Magic",
+    "Type": "Flaws",
+    "Cost": -15,
+    "Req": "",
+    "Desc": "You fear magic, you don’t believe it exists or don’t understand it. If you ever face it you have to make a Resist will hard maneuver not to run away in panic. You must do this for each new magical element you face."
+  },
+  {
+    "Name": "Fearlessness",
+    "Type": "Flaws",
+    "Cost": -10,
+    "Req": "",
+    "Desc": "You fear nothing; in fact, you consider planning o waiting to be cowardly. You would rather pull out your weapon and charge into the battle. Whenever in a battle situation you have to make a resist will +20 maneuver not to charge into combat"
+  },
+  {
+    "Name": "Forgetful",
+    "Type": "Flaws",
+    "Cost": -15,
+    "Req": "",
+    "Desc": "you cannot roll open ended in lore skills"
+  },
+  {
+    "Name": "Friendslayer",
+    "Type": "Flaws",
+    "Cost": -10,
+    "Req": "",
+    "Desc": "Whenever you fumble a spell, missile or melee attack, or fall from a tree, you harm your friends. It could be that you make the attack against them or that you just make them fumble. GM discretion."
+  },
+  {
+    "Name": "Furious",
+    "Type": "Flaws",
+    "Cost": -10,
+    "Req": "",
+    "Desc": "you always start an intrigue with intimidate, also atempts to taunt you have a +20 to critical rolls"
+  },
+  {
+    "Name": "Hard of Hearing",
+    "Type": "Flaws",
+    "Cost": -10,
+    "Req": "",
+    "Desc": "You have a -20 to your hearing maneuvers"
+  },
+  {
+    "Name": "Haughty",
+    "Type": "Flaws",
+    "Cost": -15,
+    "Req": "",
+    "Desc": "you have a -15 to all perception empathy related tests, if you intrigue against someone who is not behaving as you expect, your disposition against them is worsened by -1"
+  },
+  {
+    "Name": "Ignoble",
+    "Type": "Flaws",
+    "Cost": -20,
+    "Req": "",
+    "Desc": "you have -20 to all intrigue skills but composure"
+  },
+  {
+    "Name": "Impulsive",
+    "Type": "Flaws",
+    "Cost": -15,
+    "Req": "",
+    "Desc": "You tend to act first and think later. You almost never think your decisions through You should role-play this the same way, charging and almost never planning your actions"
+  },
+  {
+    "Name": "Intolerance (Major)",
+    "Type": "Flaws",
+    "Cost": -15,
+    "Req": "",
+    "Desc": "You have a deep irrational hatred for some type of person. It must be a group of people from your alignment, you are intolerant to a small group of people, must be over 100,000 inhabitants"
+  },
+  {
+    "Name": "Intolerance (Minor)",
+    "Type": "Flaws",
+    "Cost": -5,
+    "Req": "",
+    "Desc": "You have a deep irrational hatred for some type of person. It must be a group of people from your alignment, you are intolerant to a small group of people, up to 100,000 inhabitants"
+  },
+  {
+    "Name": "Kleptomaniac",
+    "Type": "Flaws",
+    "Cost": -15,
+    "Req": "",
+    "Desc": "Have an irrational compulsion to steal whenever the opportunity arises. What you steal is irrelevant. To resist this behavior must make a Resistance Will very hard maneuver. You never return stole items, or discard them; but might sell or give them away them."
+  },
+  {
+    "Name": "Lack of Range",
+    "Type": "Flaws",
+    "Cost": -20,
+    "Req": "",
+    "Desc": "All your ranges for missile or spells are halved"
+  },
+  {
+    "Name": "Lack of Scope",
+    "Type": "Flaws",
+    "Cost": -20,
+    "Req": "",
+    "Desc": "You have difficulty controlling the scope of your spells. The area of effect of each of your spells is halved, the number of affected targets as well. (only for spellcasters)"
+  },
+  {
+    "Name": "Lack of Time",
+    "Type": "Flaws",
+    "Cost": -20,
+    "Req": "",
+    "Desc": "You have difficulty controlling the time of your spells. The duration of effect of each of your spells is halved, (only for spellcasters)"
+  },
+  {
+    "Name": "Lecherous",
+    "Type": "Flaws",
+    "Cost": -15,
+    "Req": "",
+    "Desc": "Very strong desire for the opposite sex. Once attractive member (50+ appearance) is spotted you must try to allure them to you. Nothing else matters. You cannot help yourself. To restrain yourself you have to make a resist will RR maneuver against  their appearance +1d100 open ended. You are not oblige to mate with them, but you must approach them."
+  },
+  {
+    "Name": "Megalomaniac",
+    "Type": "Flaws",
+    "Cost": -10,
+    "Req": "",
+    "Desc": "Strongly believe that you will fulfill a grandiose goal (choose one). You feel you are predestined to complete your goal (it's no trivial task). You will not let anything stand between you and your goal. People consider you to be self-involved, but a few minutes with you reveals your megalomania."
+  },
+  {
+    "Name": "Mute",
+    "Type": "Flaws",
+    "Cost": -25,
+    "Req": "",
+    "Desc": "You cannot speak, any communication must be non-verbal. The player should not speak to the other players “off-character”."
+  },
+  {
+    "Name": "Naive",
+    "Type": "Flaws",
+    "Cost": -20,
+    "Req": "",
+    "Desc": "opponents gain a +20 to deception attacks made against you and +10 to deception criticals"
+  },
+  {
+    "Name": "Not Graceful",
+    "Type": "Flaws",
+    "Cost": -20,
+    "Req": "",
+    "Desc": "You are relatively ungraceful in your movements. You receive a penalty of -10 to all moving maneuvers"
+  },
+  {
+    "Name": "Not Subtle",
+    "Type": "Flaws",
+    "Cost": -15,
+    "Req": "",
+    "Desc": "You are not quiet or subtle, you get a special penalty of -10 to all your skills in the subterfuge category, in addition you receive a -15 to the stalking and hiding skill"
+  },
+  {
+    "Name": "Oblivious",
+    "Type": "Flaws",
+    "Cost": -15,
+    "Req": "",
+    "Desc": "You have a hard time noticing things. You receive a penalty of -15 to your perception maneuvers"
+  },
+  {
+    "Name": "One Eye",
+    "Type": "Flaws",
+    "Cost": -15,
+    "Req": "",
+    "Desc": "You have lost one of your eyes. Your fire missile weapons with a special penalty of -25"
+  },
+  {
+    "Name": "One Hand",
+    "Type": "Flaws",
+    "Cost": -20,
+    "Req": "",
+    "Desc": "You have only one hand, you cannot fight with two weapons or use a shield, also climbing is almost impossible for you, so is putting on an armor"
+  },
+  {
+    "Name": "Pain Intolerant",
+    "Type": "Flaws",
+    "Cost": -15,
+    "Req": "",
+    "Desc": "You have a low pain threshold. Every resistance stamina maneuver to resist stuns has a -20 penalty for you."
+  },
+  {
+    "Name": "Paranoid",
+    "Type": "Flaws",
+    "Cost": -10,
+    "Req": "",
+    "Desc": "You believe that everyone wants to cause you harm. You may have one or two friends which you trust. You should truly role-play this"
+  },
+  {
+    "Name": "Phobia (Greater)",
+    "Type": "Flaws",
+    "Cost": -15,
+    "Req": "",
+    "Desc": "Have an irrational fear towards something. Whenever you confront it you must make a resistance Will hard maneuver not to become paralyzed with fear for the duration of the presence of that particular stimulus (crowd, water, sharp items)"
+  },
+  {
+    "Name": "Phobia (Major)",
+    "Type": "Flaws",
+    "Cost": -10,
+    "Req": "",
+    "Desc": "Have an irrational fear towards something. Whenever you confront it you must make a resistance Will hard maneuver not to become paralyzed with fear for the duration of the presence of that particular stimulus (heights, closed spaces, etc)"
+  },
+  {
+    "Name": "Phobia (Minor)",
+    "Type": "Flaws",
+    "Cost": -5,
+    "Req": "",
+    "Desc": "Have an irrational fear towards something. Whenever you confront it you must make a resistance Will hard maneuver not to become paralyzed with fear for the duration of the presence of that particular stimulus (rare item, mechanical devices, number 13, etc)"
+  },
+  {
+    "Name": "Poor Eyesight (Major)",
+    "Type": "Flaws",
+    "Cost": -30,
+    "Req": "",
+    "Desc": "You have poor eyesight, there is no way to correct it. You might be nearsighted OR farsighted. Nearsighted get -30 penalty to all melee attacks while Farsighted get -30 penalty to all missile attacks."
+  },
+  {
+    "Name": "Poor Eyesight (Minor)",
+    "Type": "Flaws",
+    "Cost": -10,
+    "Req": "",
+    "Desc": "You have poor eyesight, you have to use glasses. You might be nearsighted OR farsighted. Nearsighted get -30 penalty to all melee attacks while Farsighted get -30 penalty to all missile attacks."
+  },
+  {
+    "Name": "Pyromaniac",
+    "Type": "Flaws",
+    "Cost": -10,
+    "Req": "",
+    "Desc": "Feel entice towards fire; See it burn, smell it, feel the heat. Must set fires when possible; Occasionally feel the urge to set fires without reason; You need a Resistance Will hard maneuver to resist. Always try to contemplate any fire you come across and contemplate it. +50 to start fires."
+  },
+  {
+    "Name": "Queasy",
+    "Type": "Flaws",
+    "Cost": -15,
+    "Req": "",
+    "Desc": "Any time you see blood or gore it makes you uneasy. Each time you must do a resistance will hard maneuver or you will operate at -30 to all your actions."
+  },
+  {
+    "Name": "Repulsive Habit (Greater)",
+    "Type": "Flaws",
+    "Cost": -15,
+    "Req": "",
+    "Desc": "You have a habit that is considered repulsive by the majority of society. You must perform this habit as often as possible. When people notice it they will regard you with disdain. (everyone in the room leaves it because of your habit, shitting in public, public masturbator, etc)"
+  },
+  {
+    "Name": "Repulsive Habit (Major)",
+    "Type": "Flaws",
+    "Cost": -10,
+    "Req": "",
+    "Desc": "You have a habit that is considered repulsive by the majority of society. You must perform this habit as often as possible. When people notice it they will regard you with disdain. (people are disgusted by your habit, picking up your nose, etc)"
+  },
+  {
+    "Name": "Repulsive Habit (Minor)",
+    "Type": "Flaws",
+    "Cost": -5,
+    "Req": "",
+    "Desc": "You have a habit that is considered repulsive by the majority of society. You must perform this habit as often as possible. When people notice it they will regard you with disdain.(it annoys people but does not disgust them, bad breath, staring at breasts, etc)"
+  },
+  {
+    "Name": "Rival NPC (Greater)",
+    "Type": "Flaws",
+    "Cost": -20,
+    "Req": "",
+    "Desc": "You have a rival. Your relationship and history to this rival are up to you. He will do his best to outdo you, even hinder you. (The rival is a High Noble or captain and would do anything to humiliate you)"
+  },
+  {
+    "Name": "Rival NPC (lesser)",
+    "Type": "Flaws",
+    "Cost": -5,
+    "Req": "",
+    "Desc": "You have a rival. Your relationship and history to this rival are up to you. He will do his best to outdo you, even hinder you.  (this NPC won’t harm you, he respects you too much.)"
+  },
+  {
+    "Name": "Rival NPC (Major)",
+    "Type": "Flaws",
+    "Cost": -15,
+    "Req": "",
+    "Desc": "You have a rival. Your relationship and history to this rival are up to you. He will do his best to outdo you, even hinder you. Flaw (This NPC would harm you if able and is of higher status)"
+  },
+  {
+    "Name": "Rival NPC (Minor)",
+    "Type": "Flaws",
+    "Cost": -10,
+    "Req": "",
+    "Desc": "You have a rival. Your relationship and history to this rival are up to you. He will do his best to outdo you, even hinder you. (This NPS would harm you if able. He is of your same status)"
+  },
+  {
+    "Name": "Sadist",
+    "Type": "Flaws",
+    "Cost": -15,
+    "Req": "",
+    "Desc": "You enjoy causing pain, either mentally or physically. Whenever you can you must indulge your sadistic habits. You may conceal your weakness for a while but anyone that spends time with you will notice. People react negatively to a known sadistic. This probably makes you evil, huh?"
+  },
+  {
+    "Name": "Secret (Greater)",
+    "Type": "Flaws",
+    "Cost": -15,
+    "Req": "",
+    "Desc": "You have a secret that if discovered will cause you to be sentence to death. It can be related to another flaw you have."
+  },
+  {
+    "Name": "Secret (Major)",
+    "Type": "Flaws",
+    "Cost": -10,
+    "Req": "",
+    "Desc": "You have a secret that if discovered will cause you exile or imprisonment, or maybe punished with imprisonment. It can be related to another flaw you have."
+  },
+  {
+    "Name": "Secret (Minor)",
+    "Type": "Flaws",
+    "Cost": -5,
+    "Req": "",
+    "Desc": "You have a secret that if discovered will cause you much embarrassment and pain. It can be related to another flaw you have."
+  },
+  {
+    "Name": "Sense of Duty (Greater)",
+    "Type": "Flaws",
+    "Cost": -15,
+    "Req": "",
+    "Desc": "You feel that you have a responsibility towards towards large group (e.g. country). This is an internal feeling, one you have placed upon yourself. You will never betray, harm or mislead those to whom you have a Sense of Duty."
+  },
+  {
+    "Name": "Sense of Duty (Major)",
+    "Type": "Flaws",
+    "Cost": -10,
+    "Req": "",
+    "Desc": "You feel that you have a responsibility towards towards large group or organization (e.g. town or city). This is an internal feeling, one you have placed upon yourself. You will never betray, harm or mislead those to whom you have a Sense of Duty."
+  },
+  {
+    "Name": "Sense of Duty (Minor)",
+    "Type": "Flaws",
+    "Cost": -5,
+    "Req": "",
+    "Desc": "You feel that you have a responsibility towards a close friend or small group. This is an internal feeling, one you have placed upon yourself. You will never betray, harm or mislead those to whom you have a Sense of Duty."
+  },
+  {
+    "Name": "Sleeper",
+    "Type": "Flaws",
+    "Cost": -15,
+    "Req": "",
+    "Desc": "You have to sleep at least 8h per night, if you are somehow awakened before the 8 hours you will be at -5 to all actions per each hour before 8 you were awoken."
+  },
+  {
+    "Name": "Sloth",
+    "Type": "Flaws",
+    "Cost": -20,
+    "Req": "",
+    "Desc": "You are slow in combat. Your moves are obvious and awkward. You receive a penalty of -5 to your OB, DB and your initiative rolls"
+  },
+  {
+    "Name": "Slow",
+    "Type": "Flaws",
+    "Cost": -5,
+    "Req": "",
+    "Desc": "Your are slower than normal. Your Base movement rate is reduced by 25%"
+  },
+  {
+    "Name": "Slow Healer",
+    "Type": "Flaws",
+    "Cost": -15,
+    "Req": "",
+    "Desc": "Your healing times are doubled"
+  },
+  {
+    "Name": "Spasm",
+    "Type": "Flaws",
+    "Cost": -10,
+    "Req": "",
+    "Desc": "Your suffer spasm attacks; whenever you roll an unmodified 66 you experience a spasm, it lasts for 1d100 turns. You loose 1d10 hit points"
+  },
+  {
+    "Name": "Stat Penalty (Greater)",
+    "Type": "Flaws",
+    "Cost": -30,
+    "Req": "",
+    "Desc": "-8 to a random stat."
+  },
+  {
+    "Name": "Stat Penalty (Major)",
+    "Type": "Flaws",
+    "Cost": -20,
+    "Req": "",
+    "Desc": "-5 to a random stat."
+  },
+  {
+    "Name": "Stat Penalty (Minor)",
+    "Type": "Flaws",
+    "Cost": -10,
+    "Req": "",
+    "Desc": "-3 to a random stat."
+  },
+  {
+    "Name": "Stutter",
+    "Type": "Flaws",
+    "Cost": -15,
+    "Req": "",
+    "Desc": "You shave a speech impediment that makes it difficult for you to speak. Any skills that require speech will suffer a special -50 penalty"
+  },
+  {
+    "Name": "Superstitious",
+    "Type": "Flaws",
+    "Cost": -5,
+    "Req": "",
+    "Desc": "You are superstitious, often reading omens into anything you encounter. You always observe the various good luck and bad luck practices of your culture. Your mood and morale are often affected by these omens"
+  },
+  {
+    "Name": "Supreme arrogance",
+    "Type": "Flaws",
+    "Cost": -15,
+    "Req": "",
+    "Desc": "susbtract your status rank from your perception rolls"
+  },
+  {
+    "Name": "Terrible Luck",
+    "Type": "Flaws",
+    "Cost": -10,
+    "Req": "",
+    "Desc": "Whenever you roll a 01 the outcome is the worst event possible, but cannot be instant death."
+  },
+  {
+    "Name": "Threatening",
+    "Type": "Flaws",
+    "Cost": -15,
+    "Req": "",
+    "Desc": "when you engage in an intrigue you must use intimidate first, you also have -30 to seducing or convincing attempts"
+  },
+  {
+    "Name": "Tired legs",
+    "Type": "Flaws",
+    "Cost": -10,
+    "Req": "",
+    "Desc": "Your legs are significantly weaker than a typical member of your race. Cannot walk more than 5 hours without resting at least 2 hrs. If walk more than 5 hrs, 25% chance that both legs will develop cramps. Legs will stay cramped for 2d10 hrs rendering completely useless during that time"
+  },
+  {
+    "Name": "Truthful",
+    "Type": "Flaws",
+    "Cost": -10,
+    "Req": "",
+    "Desc": "Unable to lie. Everybody can tell when you are lying. Deception costs double, you cannot refuse to tell the truth. This is not a vow to always tell the truth, you just suck at lying. If on a situation were you prefer to shush you must make a resistance will very hard maneuver to be able to"
+  },
+  {
+    "Name": "Uncoordinated",
+    "Type": "Flaws",
+    "Cost": -10,
+    "Req": "",
+    "Desc": "Whenever you fail a maneuver (no matter what it is) you receive an “A” unbalance critical"
+  },
+  {
+    "Name": "Unique Look (Greater)",
+    "Type": "Flaws",
+    "Cost": -15,
+    "Req": "",
+    "Desc": "You have a unique look, people always stare at you and notices it. you cannot conceal it, you suffer a -20 to appearance and people react extremely to it."
+  },
+  {
+    "Name": "Unique Look (Major)",
+    "Type": "Flaws",
+    "Cost": -10,
+    "Req": "",
+    "Desc": "You have a unique look, people always stare at you and notices it, you can conceal it, whether by using a cloak, some product or special clothing. If people see it they will have a negative reaction to it, you suffer a -10 to appearance"
+  },
+  {
+    "Name": "Unique Look (Minor)",
+    "Type": "Flaws",
+    "Cost": -5,
+    "Req": "",
+    "Desc": "You have a unique look, people always stare at you and notices it. you can conceal it, whether by using a cloak, some product or special clothing."
+  },
+  {
+    "Name": "Unlucky",
+    "Type": "Flaws",
+    "Cost": -10,
+    "Req": "",
+    "Desc": "You have bad luck, all your fumble and negative ranges are increased by 1"
+  },
+  {
+    "Name": "Vow (Greater)",
+    "Type": "Flaws",
+    "Cost": -20,
+    "Req": "",
+    "Desc": "Have taken a vow to do(or avoid) something. This vow has been sealed by some sort of ritual that left a mark on your soul. Follow your vow or risk loosing XP. This determines who you are & can be use against you (Always accept challenges, fight with lesser weapon than your foe, etc.)"
+  },
+  {
+    "Name": "Vow (lesser)",
+    "Type": "Flaws",
+    "Cost": -3,
+    "Req": "",
+    "Desc": "Have taken a vow to do (or avoid) something. This vow has been sealed by some sort of ritual that left a mark on your soul. Follow your vow or risk loosing XP. May or may not bother you occasionally (Giving 10% of your money to church, showing respect to all your elderly, etc.)"
+  },
+  {
+    "Name": "Vow (Major)",
+    "Type": "Flaws",
+    "Cost": -15,
+    "Req": "",
+    "Desc": "Have taken a vow to do (or avoid) something. This vow has been sealed by some sort of ritual that left a mark on your soul. Follow your vow or risk loosing XP. This restraines your actions in a way, most people notice it after a while. (Never using edged weapons, never speaking, etc)"
+  },
+  {
+    "Name": "Vow (Minor)",
+    "Type": "Flaws",
+    "Cost": -7,
+    "Req": "",
+    "Desc": "Have taken a vow to do (or avoid) something. This vow has been sealed by some sort of ritual that left a mark on your soul. Follow your vow or risk loosing XP. Must be part of your way of life, but not ban you from acting fairly normal (Chastity, eating no meat, etc.)"
+  },
+  {
+    "Name": "Wimp",
+    "Type": "Flaws",
+    "Cost": -20,
+    "Req": "",
+    "Desc": "You are a wimp, you suffer a penalty of -20 to all the athletic skills, a -2 to your St bonus and you can travel 2 hours less than usual."
+  }
+ ]

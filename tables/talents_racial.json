@@ -1,0 +1,65 @@
+[
+  {
+    "Name": "Bonus Skill Ranks",
+    "Type": "Racial ",
+    "Cost": 0,
+    "Req": "",
+    "Desc": "one time bonus of 5 ranks, which may be spent on any skills"
+  },
+  {
+    "Name": "Dark Vision (Greater)",
+    "Type": "Racial ",
+    "Cost": 0,
+    "Req": "",
+    "Desc": "Dwarves have the ability to see up to 20' in total darkness. With at least some illumination, such as a candle, lantern, or torch, they are able to see up to twice as far as the light provides."
+  },
+  {
+    "Name": "Enhance Senses (Elf)",
+    "Type": "Racial ",
+    "Cost": 0,
+    "Req": "",
+    "Desc": "+10 to Awareness category"
+  },
+  {
+    "Name": "Skill Specialization (Human)",
+    "Type": "Racial ",
+    "Cost": 0,
+    "Req": "",
+    "Desc": "Humans may select one skill during character generation to receive a +10 bonus."
+  },
+  {
+    "Name": "Dense Musculature",
+    "Type": "Racial ",
+    "Cost": 0,
+    "Req": "",
+    "Desc": "all Dwarves receive a +5 bonus to both their OB and DB"
+  },
+  {
+    "Name": "Night Vision",
+    "Type": "Racial ",
+    "Cost": 0,
+    "Req": "",
+    "Desc": "Elves can clearly see up to 100' easily on a starlit night. By the light of a full moon they can see up to 500' as if in broad daylight. In total darkness they are as blind as the majority of the other races."
+  },
+  {
+    "Name": "Profession Adaptability",
+    "Type": "Racial ",
+    "Cost": 0,
+    "Req": "",
+    "Desc": "Being extremely adaptable, all Humans receive a 15 Development Points at Level 1"
+  },
+  {
+    "Name": "Stone Sense",
+    "Type": "Racial ",
+    "Cost": 0,
+    "Req": "",
+    "Desc": "With innate faculties for stone and stonework, Dwarves may attempt a normal Perception Maneuver to notice unusual details, such as hidden doorways, traps within the stone itself, or flaws in stonework that could be potentially dangerous (such as those in floors or ceilings)."
+  },
+  {
+    "Name": "Quiet Stride (Elf)",
+    "Type": "Racial ",
+    "Cost": 0,
+    "Req": "",
+    "Desc": "+25 to Stalking maneuvers."
+  }
+ ]
