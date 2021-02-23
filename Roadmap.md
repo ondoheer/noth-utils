@@ -26,6 +26,7 @@ Here begins the complicated part. The user should be able to move across differe
 - Flaws
 - Categories Ranks
 - Skill Ranks
+- Fate points
 
 ### 4. Level up during character creation
 
@@ -35,6 +36,7 @@ Same as #3 except 1st lvl talents are not available
 - Flaws
 - Categories Ranks
 - Skill Ranks
+- Fate points
 
 #### 5. Choose Equipment
 
