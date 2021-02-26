@@ -1,0 +1,1068 @@
+{
+  "Academic - Pure": [
+     {
+        "skill": "Science Analytic",
+        "quantity": 1
+     },
+     {
+        "skill": "Math",
+        "quantity": 3
+     },
+     {
+        "skill": "Science",
+        "quantity": 4
+     },
+     {
+        "skill": "Science",
+        "quantity": 4
+     }
+  ],
+  "Adventurer": [
+     {
+        "skill": "Outdoors Technical",
+        "quantity": 1
+     },
+     {
+        "skill": "Hunting/Foraging",
+        "quantity": 1
+     },
+     {
+        "skill": "Outdoors Natural",
+        "quantity": 1
+     },
+     {
+        "skill": "Navigation",
+        "quantity": 1
+     },
+     {
+        "skill": "Technical/Trained",
+        "quantity": 1
+     },
+     {
+        "skill": "Craft Cooking",
+        "quantity": 1
+     },
+     {
+        "skill": "Weapon category",
+        "quantity": 2
+     },
+     {
+        "skill": "Weapon",
+        "quantity": 2
+     },
+     {
+        "skill": "Weapon category",
+        "quantity": 1
+     },
+     {
+        "skill": "Weapon",
+        "quantity": 1
+     }
+  ],
+  "Assassin": [
+     {
+        "skill": "Subterfuge Active",
+        "quantity": 2
+     },
+     {
+        "skill": "Ambush or Sniping",
+        "quantity": 2
+     },
+     {
+        "skill": "Stalking/Hiding",
+        "quantity": 1
+     },
+     {
+        "skill": "Subterfuge Passive",
+        "quantity": 2
+     },
+     {
+        "skill": "Skill",
+        "quantity": 1
+     },
+     {
+        "skill": "Awareness",
+        "quantity": 2
+     },
+     {
+        "skill": "Perception Active",
+        "quantity": 2
+     }
+  ],
+  "Athlete": [
+     {
+        "skill": "Athletic Nimble",
+        "quantity": 3
+     },
+     {
+        "skill": "Skill",
+        "quantity": 2
+     },
+     {
+        "skill": "Athletic Stamina",
+        "quantity": 3
+     },
+     {
+        "skill": "Skill",
+        "quantity": 2
+     },
+     {
+        "skill": "R. Stammina",
+        "quantity": 2
+     }
+  ],
+  "Con Man": [
+     {
+        "skill": "Urban",
+        "quantity": 1
+     },
+     {
+        "skill": "Streetwise",
+        "quantity": 1
+     },
+     {
+        "skill": "Communication reactive",
+        "quantity": 3
+     },
+     {
+        "skill": "Dupping",
+        "quantity": 1
+     },
+     {
+        "skill": "Seduction",
+        "quantity": 1
+     },
+     {
+        "skill": "Awareness",
+        "quantity": 2
+     },
+     {
+        "skill": "Lie Perception",
+        "quantity": 1
+     },
+     {
+        "skill": "Subterfuge Passive",
+        "quantity": 1
+     },
+     {
+        "skill": "Disguise",
+        "quantity": 1
+     }
+  ],
+  "Criminal": [
+     {
+        "skill": "Urban",
+        "quantity": 1
+     },
+     {
+        "skill": "Streetwise",
+        "quantity": 3
+     },
+     {
+        "skill": "Communication structured",
+        "quantity": 1
+     },
+     {
+        "skill": "Signaling",
+        "quantity": 1
+     },
+     {
+        "skill": "Awareness",
+        "quantity": 1
+     },
+     {
+        "skill": "Perception passive",
+        "quantity": 1
+     },
+     {
+        "skill": "Perception active",
+        "quantity": 1
+     },
+     {
+        "skill": "Weapon category",
+        "quantity": 1
+     },
+     {
+        "skill": "Weapon",
+        "quantity": 2
+     },
+     {
+        "skill": "Athletic Stamina",
+        "quantity": 1
+     },
+     {
+        "skill": "Brawling",
+        "quantity": 1
+     }
+  ],
+  "Eco Sympathizer": [
+     {
+        "skill": "Emotion",
+        "quantity": 2
+     },
+     {
+        "skill": "Awareness",
+        "quantity": 2
+     },
+     {
+        "skill": "Meditation",
+        "quantity": 2
+     },
+     {
+        "skill": "Perception passive",
+        "quantity": 2
+     },
+     {
+        "skill": "Social Sciences",
+        "quantity": 1
+     },
+     {
+        "skill": "History",
+        "quantity": 1
+     },
+     {
+        "skill": "Weapon Category",
+        "quantity": 1
+     },
+     {
+        "skill": "Weapon",
+        "quantity": 1
+     }
+  ],
+  "Farmer": [
+     {
+        "skill": "Technical/Trained",
+        "quantity": 3
+     },
+     {
+        "skill": "Cooking",
+        "quantity": 1
+     },
+     {
+        "skill": "Farming",
+        "quantity": 3
+     },
+     {
+        "skill": "Animals",
+        "quantity": 2
+     },
+     {
+        "skill": "Animal handling",
+        "quantity": 1
+     },
+     {
+        "skill": "Fauna & Flora",
+        "quantity": 1
+     },
+     {
+        "skill": "Skill",
+        "quantity": 1
+     }
+  ],
+  "Field Medic": [
+     {
+        "skill": "Medicine",
+        "quantity": 1
+     },
+     {
+        "skill": "Diagnostics",
+        "quantity": 2
+     },
+     {
+        "skill": "Treat Wounds",
+        "quantity": 4
+     },
+     {
+        "skill": "Weapon Category",
+        "quantity": 1
+     },
+     {
+        "skill": "Weapon",
+        "quantity": 2
+     },
+     {
+        "skill": "Awareness",
+        "quantity": 1
+     },
+     {
+        "skill": "Perception passive",
+        "quantity": 1
+     }
+  ],
+  "Gladiator": [
+     {
+        "skill": "Performance",
+        "quantity": 1
+     },
+     {
+        "skill": "Acting",
+        "quantity": 1
+     },
+     {
+        "skill": "Weapon melee category",
+        "quantity": 3
+     },
+     {
+        "skill": "Weapon",
+        "quantity": 1
+     },
+     {
+        "skill": "Weapon melee category",
+        "quantity": 2
+     },
+     {
+        "skill": "Weapon",
+        "quantity": 1
+     },
+     {
+        "skill": "R. Stamina",
+        "quantity": 1
+     },
+     {
+        "skill": "Athletic stamina",
+        "quantity": 1
+     },
+     {
+        "skill": "Brawling",
+        "quantity": 1
+     }
+  ],
+  "Guard - Soldier": [
+     {
+        "skill": "Awareness",
+        "quantity": 3
+     },
+     {
+        "skill": "Perception passive",
+        "quantity": 1
+     },
+     {
+        "skill": "Perception active",
+        "quantity": 1
+     },
+     {
+        "skill": "Weapon category",
+        "quantity": 2
+     },
+     {
+        "skill": "Weapon",
+        "quantity": 2
+     },
+     {
+        "skill": "Athletic Stam",
+        "quantity": 1
+     },
+     {
+        "skill": "Brawling",
+        "quantity": 2
+     }
+  ],
+  "Guard - City": [
+     {
+        "skill": "Awareness",
+        "quantity": 3
+     },
+     {
+        "skill": "Perception passive",
+        "quantity": 1
+     },
+     {
+        "skill": "Perception active",
+        "quantity": 1
+     },
+     {
+        "skill": "Urban",
+        "quantity": 2
+     },
+     {
+        "skill": "Streetwise",
+        "quantity": 2
+     },
+     {
+        "skill": "Scrounging",
+        "quantity": 1
+     },
+     {
+        "skill": "Weapon category",
+        "quantity": 1
+     },
+     {
+        "skill": "Weapon",
+        "quantity": 1
+     }
+  ],
+  "Highwayman": [
+     {
+        "skill": "Outdoors Natura",
+        "quantity": 2
+     },
+     {
+        "skill": "Navigation",
+        "quantity": 2
+     },
+     {
+        "skill": "Outdoors Technical",
+        "quantity": 1
+     },
+     {
+        "skill": "Hunting/Foraging",
+        "quantity": 1
+     },
+     {
+        "skill": "Awareness",
+        "quantity": 2
+     },
+     {
+        "skill": "Perception passive",
+        "quantity": 1
+     },
+     {
+        "skill": "Weapon category",
+        "quantity": 2
+     },
+     {
+        "skill": "Weapon",
+        "quantity": 1
+     }
+  ],
+  "Hunter": [
+     {
+        "skill": "Outdoors Natura",
+        "quantity": 1
+     },
+     {
+        "skill": "Navigation",
+        "quantity": 1
+     },
+     {
+        "skill": "Outdoors Technica",
+        "quantity": 1
+     },
+     {
+        "skill": "Hunting/Foraging",
+        "quantity": 2
+     },
+     {
+        "skill": "Awareness",
+        "quantity": 1
+     },
+     {
+        "skill": "Tracking",
+        "quantity": 2
+     },
+     {
+        "skill": "Subterfuge active",
+        "quantity": 1
+     },
+     {
+        "skill": "Stalking/Hiding",
+        "quantity": 2
+     },
+     {
+        "skill": "Sniping",
+        "quantity": 1
+     }
+  ],
+  "Itinerant Doctor": [
+     {
+        "skill": "Outdoors Natural",
+        "quantity": 1
+     },
+     {
+        "skill": "Navigation",
+        "quantity": 1
+     },
+     {
+        "skill": "Medicine",
+        "quantity": 1
+     },
+     {
+        "skill": "Diagnostics",
+        "quantity": 2
+     },
+     {
+        "skill": "Treat Ailment",
+        "quantity": 2
+     },
+     {
+        "skill": "Apothecary",
+        "quantity": 1
+     },
+     {
+        "skill": "Treat Wounds",
+        "quantity": 1
+     },
+     {
+        "skill": "Communications reactive",
+        "quantity": 1
+     },
+     {
+        "skill": "Trade",
+        "quantity": 2
+     }
+  ],
+  "Mercenary": [
+     {
+        "skill": "Athletic Stamina",
+        "quantity": 1
+     },
+     {
+        "skill": "Armor",
+        "quantity": 2
+     },
+     {
+        "skill": "Communication reactive",
+        "quantity": 1
+     },
+     {
+        "skill": "Trade",
+        "quantity": 1
+     },
+     {
+        "skill": "Weapon category",
+        "quantity": 2
+     },
+     {
+        "skill": "Weapon",
+        "quantity": 3
+     },
+     {
+        "skill": "Weapon category",
+        "quantity": 1
+     },
+     {
+        "skill": "Weapon",
+        "quantity": 1
+     }
+  ],
+  "Merchant": [
+     {
+        "skill": "Awareness",
+        "quantity": 1
+     },
+     {
+        "skill": "Appraisal",
+        "quantity": 3
+     },
+     {
+        "skill": "Communication reactive",
+        "quantity": 1
+     },
+     {
+        "skill": "Trade",
+        "quantity": 4
+     },
+     {
+        "skill": "Convince",
+        "quantity": 1
+     },
+     {
+        "skill": "Urban",
+        "quantity": 1
+     },
+     {
+        "skill": "Contacting",
+        "quantity": 1
+     }
+  ],
+  "Nobleman": [
+     {
+        "skill": "Communications structured",
+        "quantity": 1
+     },
+     {
+        "skill": "Diplomacy",
+        "quantity": 1
+     },
+     {
+        "skill": "Public speaking",
+        "quantity": 1
+     },
+     {
+        "skill": "Communications reactive",
+        "quantity": 1
+     },
+     {
+        "skill": "Intrigue",
+        "quantity": 1
+     },
+     {
+        "skill": "Intimidate",
+        "quantity": 1
+     },
+     {
+        "skill": "Social Sciences",
+        "quantity": 1
+     },
+     {
+        "skill": "Skill",
+        "quantity": 1
+     },
+     {
+        "skill": "Skil",
+        "quantity": 1
+     },
+     {
+        "skill": "Animal",
+        "quantity": 1
+     },
+     {
+        "skill": "Riding",
+        "quantity": 2
+     }
+  ],
+  "Officer - lower tier": [
+     {
+        "skill": "Warfare",
+        "quantity": 2
+     },
+     {
+        "skill": "Tactics",
+        "quantity": 2
+     },
+     {
+        "skill": "Command",
+        "quantity": 2
+     },
+     {
+        "skill": "Weapon category",
+        "quantity": 1
+     },
+     {
+        "skill": "Weapon",
+        "quantity": 2
+     },
+     {
+        "skill": "Athletic stamina",
+        "quantity": 1
+     },
+     {
+        "skill": "Armor",
+        "quantity": 2
+     }
+  ],
+  "Officer - High tier": [
+     {
+        "skill": "Warfare",
+        "quantity": 2
+     },
+     {
+        "skill": "Strategy",
+        "quantity": 2
+     },
+     {
+        "skill": "Logistics",
+        "quantity": 2
+     },
+     {
+        "skill": "Command",
+        "quantity": 2
+     },
+     {
+        "skill": "Communication structured",
+        "quantity": 2
+     },
+     {
+        "skill": "Public speaking",
+        "quantity": 1
+     },
+     {
+        "skill": "Diplomacy",
+        "quantity": 1
+     }
+  ],
+  "Travelling Performer": [
+     {
+        "skill": "Performance",
+        "quantity": 3
+     },
+     {
+        "skill": "Skill",
+        "quantity": 3
+     },
+     {
+        "skill": "Outdoors Natural",
+        "quantity": 1
+     },
+     {
+        "skill": "Navigation",
+        "quantity": 1
+     },
+     {
+        "skill": "Communication reactive",
+        "quantity": 2
+     },
+     {
+        "skill": "Trade",
+        "quantity": 2
+     }
+  ],
+  "Urban Performer": [
+     {
+        "skill": "Performance",
+        "quantity": 3
+     },
+     {
+        "skill": "Skill",
+        "quantity": 3
+     },
+     {
+        "skill": "Urban",
+        "quantity": 1
+     },
+     {
+        "skill": "Skill",
+        "quantity": 1
+     },
+     {
+        "skill": "Communication reactive",
+        "quantity": 1
+     },
+     {
+        "skill": "Skill",
+        "quantity": 2
+     },
+     {
+        "skill": "Skill",
+        "quantity": 1
+     }
+  ],
+  "Politician": [
+     {
+        "skill": "Communication structured",
+        "quantity": 1
+     },
+     {
+        "skill": "Public speaking",
+        "quantity": 1
+     },
+     {
+        "skill": "Convince",
+        "quantity": 1
+     },
+     {
+        "skill": "Diplomacy",
+        "quantity": 1
+     },
+     {
+        "skill": "Socio Economics",
+        "quantity": 1
+     },
+     {
+        "skill": "Economics",
+        "quantity": 1
+     },
+     {
+        "skill": "Social Sciences",
+        "quantity": 1
+     },
+     {
+        "skill": "Politics",
+        "quantity": 3
+     },
+     {
+        "skill": "Skill",
+        "quantity": 2
+     }
+  ],
+  "Sailor": [
+     {
+        "skill": "Athletic Stamina",
+        "quantity": 1
+     },
+     {
+        "skill": "Climbing",
+        "quantity": 2
+     },
+     {
+        "skill": "Outdoors",
+        "quantity": 1
+     },
+     {
+        "skill": "Navigation",
+        "quantity": 2
+     },
+     {
+        "skill": "Sailing",
+        "quantity": 3
+     },
+     {
+        "skill": "Technical trained",
+        "quantity": 1
+     },
+     {
+        "skill": "Rope mastery",
+        "quantity": 2
+     }
+  ],
+  "Scout": [
+     {
+        "skill": "Awareness",
+        "quantity": 1
+     },
+     {
+        "skill": "Perception active",
+        "quantity": 2
+     },
+     {
+        "skill": "Tracking",
+        "quantity": 3
+     },
+     {
+        "skill": "Outdoors Natura",
+        "quantity": 1
+     },
+     {
+        "skill": "Navigation",
+        "quantity": 2
+     },
+     {
+        "skill": "Subterfuge active",
+        "quantity": 1
+     },
+     {
+        "skill": "Stalking/Hiding",
+        "quantity": 2
+     }
+  ],
+  "Soldier - Infantry": [
+     {
+        "skill": "Athletic stamina",
+        "quantity": 1
+     },
+     {
+        "skill": "Armor",
+        "quantity": 1
+     },
+     {
+        "skill": "Warfare",
+        "quantity": 1
+     },
+     {
+        "skill": "Tactics",
+        "quantity": 1
+     },
+     {
+        "skill": "Weapon melee category",
+        "quantity": 1
+     },
+     {
+        "skill": "Weapon",
+        "quantity": 3
+     },
+     {
+        "skill": "Weapon melee category",
+        "quantity": 1
+     },
+     {
+        "skill": "Weapon",
+        "quantity": 2
+     },
+     {
+        "skill": "R. Stam",
+        "quantity": 1
+     }
+  ],
+  "Soldier - Archer": [
+     {
+        "skill": "Craft fine",
+        "quantity": 1
+     },
+     {
+        "skill": "Bowyer/Fletching",
+        "quantity": 1
+     },
+     {
+        "skill": "Subterfuge active",
+        "quantity": 1
+     },
+     {
+        "skill": "Sniping",
+        "quantity": 2
+     },
+     {
+        "skill": "Weapon Missile",
+        "quantity": 2
+     },
+     {
+        "skill": "Weapon",
+        "quantity": 3
+     },
+     {
+        "skill": "Weapon melee category",
+        "quantity": 1
+     },
+     {
+        "skill": "Weapon",
+        "quantity": 1
+     }
+  ],
+  "Soldier - Cavalry": [
+     {
+        "skill": "Animal",
+        "quantity": 1
+     },
+     {
+        "skill": "Animal Handling",
+        "quantity": 1
+     },
+     {
+        "skill": "Riding",
+        "quantity": 3
+     },
+     {
+        "skill": "BeastMaster",
+        "quantity": 1
+     },
+     {
+        "skill": "Mounted Combat",
+        "quantity": 2
+     },
+     {
+        "skill": "Weapon category",
+        "quantity": 1
+     },
+     {
+        "skill": "Weapon",
+        "quantity": 3
+     }
+  ],
+  "Spy": [
+     {
+        "skill": "Subterfuge passive",
+        "quantity": 1
+     },
+     {
+        "skill": "Disguise",
+        "quantity": 2
+     },
+     {
+        "skill": "Lock & Traps",
+        "quantity": 2
+     },
+     {
+        "skill": "Communication reactive",
+        "quantity": 1
+     },
+     {
+        "skill": "Intrigue",
+        "quantity": 2
+     },
+     {
+        "skill": "Seduction",
+        "quantity": 2
+     },
+     {
+        "skill": "Awareness",
+        "quantity": 1
+     },
+     {
+        "skill": "Perception active",
+        "quantity": 1
+     }
+  ],
+  "Doctor": [
+     {
+        "skill": "Medicine",
+        "quantity": 2
+     },
+     {
+        "skill": "Diagnostics",
+        "quantity": 3
+     },
+     {
+        "skill": "Treat Ailment",
+        "quantity": 3
+     },
+     {
+        "skill": "Treat Wound",
+        "quantity": 3
+     },
+     {
+        "skill": "Apothecary",
+        "quantity": 1
+     }
+  ],
+  "Thief": [
+     {
+        "skill": "Subterfuge active",
+        "quantity": 1
+     },
+     {
+        "skill": "Stalking/hiding",
+        "quantity": 2
+     },
+     {
+        "skill": "Pick Pockets/sleight of hand",
+        "quantity": 2
+     },
+     {
+        "skill": "Awareness",
+        "quantity": 1
+     },
+     {
+        "skill": "Appraisal",
+        "quantity": 1
+     },
+     {
+        "skill": "Perception passive",
+        "quantity": 1
+     },
+     {
+        "skill": "Communication reactive",
+        "quantity": 1
+     },
+     {
+        "skill": "Trade",
+        "quantity": 1
+     },
+     {
+        "skill": "Athletic stamina",
+        "quantity": 1
+     },
+     {
+        "skill": "Brawling",
+        "quantity": 1
+     }
+  ],
+  "Tradesman": [
+     {
+        "skill": "Awareness",
+        "quantity": 1
+     },
+     {
+        "skill": "Appraisal",
+        "quantity": 2
+     },
+     {
+        "skill": "Craft any",
+        "quantity": 2
+     },
+     {
+        "skill": "Craft specific",
+        "quantity": 4
+     },
+     {
+        "skill": "Communication",
+        "quantity": 1
+     },
+     {
+        "skill": "Trade",
+        "quantity": 2
+     }
+  ],
+  "Weapon Master": [
+     {
+        "skill": "Weapon category",
+        "quantity": 6
+     },
+     {
+        "skill": "Weapon",
+        "quantity": 3
+     },
+     {
+        "skill": "Weapon",
+        "quantity": 3
+     }
+  ]
+}
